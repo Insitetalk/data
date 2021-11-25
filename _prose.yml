@@ -87,67 +87,67 @@ prose:
       ######### National Metadata #########
       - name: "national_indicator_available"
         field:
-            element: text
+            element: hidden
             label: "Indicator available"
             translation_key: metadata_fields.national_indicator_available
             scope: national
       - name: "national_indicator_description"
         field:
-            element: text
+            element: hidden
             label: "Indicator description"
             translation_key: metadata_fields.national_indicator_description
             scope: national
       - name: "national_geographical_coverage"
         field:
-            element: text
+            element: hidden
             label: "Geographical coverage"
             translation_key: metadata_fields.national_geographical_coverage
             scope: national
       - name: "computation_units"
         field:
-            element: text
+            element: hidden
             label: "Unit of measurement"
             translation_key: metadata_fields.computation_units
             scope: national
       - name: "computation_definitions"
         field:
-            element: textarea
+            element: hidden
             label: "Definitions"
             translation_key: metadata_fields.computation_definitions
             scope: national
       - name: "computation_calculations"
         field:
-            element: text
+            element: hidden
             label: "Calculations"
             translation_key: metadata_fields.computation_calculations
             scope: national
       - name: "other_info"
         field:
-            element: text
+            element: hidden
             label: "Other information"
             translation_key: metadata_fields.other_info
             scope: national
       - name: "quality_assurance"
         field:
-            element: text
+            element: hidden
             label: "Quality assurance"
             translation_key: metadata_fields.quality_assurance
             scope: national
       - name: "international_comparability"
         field:
-            element: text
+            element: hidden
             label: "Comparability with international data/standards"
             translation_key: metadata_fields.international_comparability
             scope: national
       - name: "comments_limitations"
         field:
-            element: text
+            element: hidden
             label: "Comments and limitations"
             translation_key: metadata_fields.comments_limitations
             scope: national
       - name: "rationale_interpretation"
         field:
-            element: text
+            element: hidden
             label: "Rationale and interpretation"
             translation_key: metadata_fields.rationale_interpretation
             scope: national
