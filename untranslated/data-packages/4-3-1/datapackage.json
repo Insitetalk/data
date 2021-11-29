@@ -12,6 +12,91 @@
         "fields": [
           {
             "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "OBS_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "EDUCATION_LEV",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ISCED11_35",
+                "ISCED11_25_35_45",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "CUST_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "GES",
+                "OTHER_PUBLIC",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_GH_PUBLIC",
+                "_L_GH_PRIVATE",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
             "type": "number"
           },
           {
