@@ -1,8 +1,7 @@
 Disaggregation,en,Number of indicators,Number of values
 AGE,Age,1,1
-COMPOSITE_BREAKDOWN,Composite breakdown,2,17
 DISABILITY_STATUS,Disability status,1,6
-OBS_STATUS,Observation status,5,1
+OBS_STATUS,Observation status,1,1
 SEX,Sex,1,2
-UNIT_MULT,Unit multiplier,5,1
-URBANISATION,Degree of urbanisation,3,2
+UNIT_MULT,Unit multiplier,1,1
+URBANISATION,Degree of urbanisation,1,2
