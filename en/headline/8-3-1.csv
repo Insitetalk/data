@@ -1,1 +1,2 @@
-Year,Value
+Year,Value,GeoCode,Observation status,Unit multiplier,UNIT_MEASURE,SERIES
+2021,77.1,,Normal value,Units,Percent,"Proportion of informal employment, by sector and sex (ILO harmonized estimates) [8.3.1]"
