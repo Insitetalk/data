@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "OBS_STATUS",
@@ -35,19 +35,11 @@
             }
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Agriculture orientation index for government expenditures [2.a.1]",
-                "Agriculture share of Government Expenditure [2.a.1]",
-                "Agriculture value added share of GDP [2.a.1]",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "number",
             "constraints": {
               "enum": [
@@ -56,15 +48,12 @@
             }
           },
           {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Index",
-                "Percent",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number"
           },
           {
             "name": "Value",

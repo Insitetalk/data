@@ -1,1 +1,1 @@
-{"From":["OBS_STATUS","UNIT_MULT","SDG Series","Sex","Age","Unit of measure"],"To":["UNIT_MULT","SDG Series","Sex","Age","Unit of measure","Degree of urbanisation"]}
+{"From":["OBS_STATUS","UNIT_MULT","SEX","AGE"],"To":["UNIT_MULT","SEX","AGE","URBANISATION"]}

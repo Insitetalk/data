@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "OBS_STATUS",
@@ -35,18 +35,11 @@
             }
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage of children engaged in child labour",
-                "Percentage of children engaged in hazardous forms of child labour",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "number",
             "constraints": {
               "enum": [
@@ -55,46 +48,44 @@
             }
           },
           {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Age",
+            "name": "AGE",
             "type": "string",
             "constraints": {
               "enum": [
-                "5 to 17 years old",
+                "Y5T17",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
           },
           {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number"
           },
           {
             "name": "Value",

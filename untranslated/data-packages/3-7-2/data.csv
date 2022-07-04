@@ -1,7 +1,7 @@
-Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
-1993,A,0,"Adolescent birth rate (per 1,000 women aged 15-19 years) [3.7.2]",,Percent,116
-1998,A,0,"Adolescent birth rate (per 1,000 women aged 15-19 years) [3.7.2]",,Percent,88
-2003,A,0,"Adolescent birth rate (per 1,000 women aged 15-19 years) [3.7.2]",,Percent,74
-2008,A,0,"Adolescent birth rate (per 1,000 women aged 15-19 years) [3.7.2]",,Percent,66
-2014,A,0,"Adolescent birth rate (per 1,000 women aged 15-19 years) [3.7.2]",,Percent,76
-2017,A,0,"Adolescent birth rate (per 1,000 women aged 15-19 years) [3.7.2]",,Percent,75
+Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
+1993,A,0,SP_DYN_ADKL,,PT,,116
+1998,A,0,SP_DYN_ADKL,,PT,,88
+2003,A,0,SP_DYN_ADKL,,PT,,74
+2008,A,0,SP_DYN_ADKL,,PT,,66
+2014,A,0,SP_DYN_ADKL,,PT,,76
+2017,A,0,SP_DYN_ADKL,,PT,,75

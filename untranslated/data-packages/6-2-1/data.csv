@@ -1,13 +1,13 @@
-Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Degree of urbanisation,Composite breakdown,Unit of measure,Value
-2017,A,0,Type of toilet facility used by households by locality type,,Urban,No facility (bush/beach/field),Percent,5.9
-2017,A,0,Type of toilet facility used by households by locality type,,Rural,No facility (bush/beach/field),Percent,29.0
-2017,A,0,Type of toilet facility used by households by locality type,,Urban,Water Closet (WC),Percent,28.6
-2017,A,0,Type of toilet facility used by households by locality type,,Rural,Water Closet (WC),Percent,4.5
-2017,A,0,Type of toilet facility used by households by locality type,,Urban,Pit Latrine,Percent,13.6
-2017,A,0,Type of toilet facility used by households by locality type,,Rural,Pit Latrine,Percent,27.2
-2017,A,0,Type of toilet facility used by households by locality type,,Urban,Kumasi Ventilated Improved Pit (KVIP),Percent,15.4
-2017,A,0,Type of toilet facility used by households by locality type,,Rural,Kumasi Ventilated Improved Pit (KVIP),Percent,11.9
-2017,A,0,Type of toilet facility used by households by locality type,,Urban,Bucket/Pan,Percent,0.4
-2017,A,0,Type of toilet facility used by households by locality type,,Rural,Bucket/Pan,Percent,0.2
-2017,A,0,Type of toilet facility used by households by locality type,,Urban,Public Toilet,Percent,36.2
-2017,A,0,Type of toilet facility used by households by locality type,,Rural,Public Toilet,Percent,27.2
+Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,URBANISATION,COMPOSITE_BREAKDOWN,UNIT_MEASURE,GeoCode,Value
+2017,A,0,_L_GH_060201_01,,U,_L_GH_NO_FACILITY,PT,,5.9
+2017,A,0,_L_GH_060201_01,,R,_L_GH_NO_FACILITY,PT,,29.0
+2017,A,0,_L_GH_060201_01,,U,_L_GH_WC,PT,,28.6
+2017,A,0,_L_GH_060201_01,,R,_L_GH_WC,PT,,4.5
+2017,A,0,_L_GH_060201_01,,U,_L_GH_PIT_LATRINE,PT,,13.6
+2017,A,0,_L_GH_060201_01,,R,_L_GH_PIT_LATRINE,PT,,27.2
+2017,A,0,_L_GH_060201_01,,U,_L_GH_KVIP,PT,,15.4
+2017,A,0,_L_GH_060201_01,,R,_L_GH_KVIP,PT,,11.9
+2017,A,0,_L_GH_060201_01,,U,_L_GH_BUCKET,PT,,0.4
+2017,A,0,_L_GH_060201_01,,R,_L_GH_BUCKET,PT,,0.2
+2017,A,0,_L_GH_060201_01,,U,_L_GH_PUBLIC_TOILET,PT,,36.2
+2017,A,0,_L_GH_060201_01,,R,_L_GH_PUBLIC_TOILET,PT,,27.2

@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "OBS_STATUS",
@@ -35,19 +35,11 @@
             }
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Pupil-trained teacher ratio by academic year at the basic level",
-                "Comparison of Pupil-trained teacher ratio by year at the basic level",
-                "Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country [4.c.1]",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "number",
             "constraints": {
               "enum": [
@@ -56,40 +48,37 @@
             }
           },
           {
-            "name": "Education level",
+            "name": "EDUCATION_LEV",
             "type": "string",
             "constraints": {
               "enum": [
-                "Early childhood education",
-                "Pre-primary education",
-                "Primary education",
-                "Lower secondary education",
-                "Upper secondary education",
+                "ISCED11_0",
+                "ISCED11_02",
+                "ISCED11_1",
+                "ISCED11_2",
+                "ISCED11_3",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Public",
-                "Private",
+                "_L_GH_PUBLIC",
+                "_L_GH_PRIVATE",
                 ""
               ]
             }
           },
           {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Ratio",
-                "Percent",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number"
           },
           {
             "name": "Value",

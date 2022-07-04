@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "OBS_STATUS",
@@ -35,71 +35,63 @@
             }
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of informal employment, by sector and sex (ILO harmonized estimates) [8.3.1]",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
                 ""
               ]
             }
           },
           {
-            "name": "Reference area",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Western",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
-                "Ashanti",
-                "Western North",
-                "Ahafo",
-                "Bono",
-                "Bono East",
-                "Oti",
-                "Northern",
-                "Savannah",
-                "North East",
-                "Upper East",
-                "Upper West",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Sex",
+            "name": "ACTIVITY",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "ISIC4_A",
+                "ISIC4_BTU",
                 ""
               ]
             }
           },
           {
-            "name": "Economic activity",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Agriculture, forestry and fishing",
-                "Non-agriculture",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                ""
-              ]
-            }
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

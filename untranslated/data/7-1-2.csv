@@ -1,4 +1,4 @@
-Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
-2013,A,0,Proportion of population with primary reliance on clean fuels and technology [7.1.2],,Percent,22.3
-2017,A,0,Proportion of population with primary reliance on clean fuels and technology [7.1.2],,Percent,26.7
-2018,A,0,Proportion of population with primary reliance on clean fuels and technology [7.1.2],,Percent,28.0
+Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
+2013,A,0,EG_EGY_CLEAN,,PT,,22.3
+2017,A,0,EG_EGY_CLEAN,,PT,,26.7
+2018,A,0,EG_EGY_CLEAN,,PT,,28.0

@@ -1,1 +1,1 @@
-{"From":["OBS_STATUS","UNIT_MULT","SDG Series","Sex","Age"],"To":["UNIT_MULT","SDG Series","Sex","Age","Unit of measure"]}
+{"From":["OBS_STATUS","UNIT_MULT","SEX"],"To":["UNIT_MULT","SEX","AGE"]}

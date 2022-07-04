@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "OBS_STATUS",
@@ -35,76 +35,62 @@
             }
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of population living in poverty in all its dimensions according to national definitions [1.2.2]",
-                "Monetary Poverty Rate",
-                "Proportion of population living in multidimensional poverty [1.2.2]",
+                "_L_GH_Coastal",
+                "_L_GH_Forest",
+                "_L_GH_Savannah",
                 ""
               ]
             }
           },
           {
-            "name": "Reference area",
+            "name": "AGE",
             "type": "string",
             "constraints": {
               "enum": [
-                "Coastal Zone",
-                "Forest Zone",
-                "Savannah Zone",
+                "Y0T17",
                 ""
               ]
             }
           },
           {
-            "name": "Age",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "under 18 years old",
+                "R",
+                "U",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Rural",
-                "Urban",
+                "_L_GH_ICT",
+                "_L_GH_HOUSING",
+                "_L_GH_SANITATION",
+                "_L_GH_WATER",
+                "_L_GH_PROTECTION",
+                "_L_GH_DEVELOPMENT",
+                "_L_GH_HEALTH",
+                "_L_GH_NUTRITION",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "ICT",
-                "HOUSING",
-                "SANITATION",
-                "WATER",
-                "PROTECTION",
-                "DEVELOPMENT",
-                "HEALTH",
-                "NUTRITION",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "COMMENT_OBS",
@@ -115,6 +101,10 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

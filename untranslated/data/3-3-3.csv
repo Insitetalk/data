@@ -1,5 +1,5 @@
-Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
-2015,A,0,"Malaria incidence per 1,000 population at risk [3.3.3]",,"Per 1,000 population",214.0
-2016,A,0,"Malaria incidence per 1,000 population at risk [3.3.3]",,"Per 1,000 population",160.0
-2017,A,0,"Malaria incidence per 1,000 population at risk [3.3.3]",,"Per 1,000 population",170.59
-2018,A,0,"Malaria incidence per 1,000 population at risk [3.3.3]",,"Per 1,000 population",185.4
+Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
+2015,A,0,SH_STA_MALR,,PER_1000_POP,,214.0
+2016,A,0,SH_STA_MALR,,PER_1000_POP,,160.0
+2017,A,0,SH_STA_MALR,,PER_1000_POP,,170.59
+2018,A,0,SH_STA_MALR,,PER_1000_POP,,185.4

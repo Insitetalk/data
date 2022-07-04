@@ -1,5 +1,5 @@
-Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
-2016,A,0,"Total official flows (disbursements) for agriculture, by recipient countries [2.a.2]",,Percent,0.25
-2017,A,0,"Total official flows (disbursements) for agriculture, by recipient countries [2.a.2]",,Percent,0.08
-2018,A,0,"Total official flows (disbursements) for agriculture, by recipient countries [2.a.2]",,Percent,2.57
-2019,A,0,"Total official flows (disbursements) for agriculture, by recipient countries [2.a.2]",,Percent,0.12
+Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
+2016,A,0,DC_TOF_AGRL,,PT,,0.25
+2017,A,0,DC_TOF_AGRL,,PT,,0.08
+2018,A,0,DC_TOF_AGRL,,PT,,2.57
+2019,A,0,DC_TOF_AGRL,,PT,,0.12

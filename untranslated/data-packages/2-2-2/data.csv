@@ -1,10 +1,10 @@
-Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
-2011,A,0,Proportion of children moderately or severely overweight [2.2.2],,Percent,2.6
-2014,A,0,Proportion of children moderately or severely overweight [2.2.2],,Percent,2.6
-2017,A,0,Proportion of children moderately or severely overweight [2.2.2],,Percent,1.4
-2011,A,0,Proportion of children moderately or severely wasted [2.2.2],,Percent,6.2
-2014,A,0,Proportion of children moderately or severely wasted [2.2.2],,Percent,4.7
-2017,A,0,Proportion of children moderately or severely wasted [2.2.2],,Percent,6.8
-2011,A,0,Proportion of children underweight,,Percent,13.4
-2014,A,0,Proportion of children underweight,,Percent,11.0
-2017,A,0,Proportion of children underweight,,Percent,12.6
+Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
+2011,A,0,SN_STA_OVWGT,,PT,,2.6
+2014,A,0,SN_STA_OVWGT,,PT,,2.6
+2017,A,0,SN_STA_OVWGT,,PT,,1.4
+2011,A,0,SH_STA_WAST,,PT,,6.2
+2014,A,0,SH_STA_WAST,,PT,,4.7
+2017,A,0,SH_STA_WAST,,PT,,6.8
+2011,A,0,_L_GH_020202,,PT,,13.4
+2014,A,0,_L_GH_020202,,PT,,11.0
+2017,A,0,_L_GH_020202,,PT,,12.6

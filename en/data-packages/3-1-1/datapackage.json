@@ -11,79 +11,71 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
               "enum": [
-                "Normal value",
-                ""
+                "",
+                "Normal value"
               ]
             },
             "title": "Observation status"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Western",
+                "Central",
+                "Greater Accra",
+                "Volta",
+                "Eastern",
+                "Ashanti",
+                "Brong Ahafo",
+                "Northern",
+                "Upper East",
+                "Upper West"
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Unit of measure"
           },
           {
             "name": "UNIT_MULT",
             "type": "string",
             "constraints": {
               "enum": [
-                "Units",
-                ""
+                "",
+                "Units"
               ]
             },
             "title": "Unit multiplier"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Maternal mortality ratio [3.1.1]",
-                "Institutional maternal mortality ratio",
-                ""
-              ]
-            },
-            "title": "SDG Series"
-          },
-          {
-            "name": "Reference area",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Ashanti",
-                "Brong Ahafo",
-                "Central",
-                "Eastern",
-                "Greater Accra",
-                "Northern",
-                "Upper East",
-                "Upper West",
-                "Volta",
-                "Western",
-                ""
-              ]
-            },
-            "title": "Reference area"
-          },
-          {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Per 100,000 live births",
-                ""
-              ]
-            },
-            "title": "Unit of measure"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
           }
         ]
       }

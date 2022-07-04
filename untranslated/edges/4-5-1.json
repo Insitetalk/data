@@ -1,1 +1,1 @@
-{"From":["OBS_STATUS","UNIT_MULT","SDG Series","Unit of measure","Education level"],"To":["UNIT_MULT","SDG Series","Education level","Reference area","Unit of measure"]}
+{"From":["OBS_STATUS","UNIT_MULT","EDUCATION_LEV"],"To":["UNIT_MULT","EDUCATION_LEV","REF_AREA"]}

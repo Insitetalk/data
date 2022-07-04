@@ -1,7 +1,5 @@
 From,To
 OBS_STATUS,UNIT_MULT
-UNIT_MULT,SDG Series
-SDG Series,Sex
-Sex,Age
-Age,Unit of measure
-Unit of measure,Degree of urbanisation
+UNIT_MULT,SEX
+SEX,AGE
+AGE,URBANISATION

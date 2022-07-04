@@ -1,5 +1,5 @@
-Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
-2016,A,0,Primary government expenditures as a proportion of original approved budget [16.6.1],,Percent,115.8
-2017,A,0,Primary government expenditures as a proportion of original approved budget [16.6.1],,Percent,88.6
-2018,A,0,Primary government expenditures as a proportion of original approved budget [16.6.1],,Percent,90.5
-2019,A,0,Primary government expenditures as a proportion of original approved budget [16.6.1],,Percent,92.5
+Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
+2016,A,0,GF_XPD_GBPC,,PT,,115.8
+2017,A,0,GF_XPD_GBPC,,PT,,88.6
+2018,A,0,GF_XPD_GBPC,,PT,,90.5
+2019,A,0,GF_XPD_GBPC,,PT,,92.5

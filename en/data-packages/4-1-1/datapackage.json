@@ -11,48 +11,51 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Skill: Functional literacy",
+                "Skill: Mathematics",
+                "Skill: Functional numeracy",
+                "Skill: Reading",
+                "English"
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
+            "name": "EDUCATION_LEV",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Lower secondary education",
+                "Primary 4",
+                "Primary 6"
+              ]
+            },
+            "title": "Education level"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
           },
           {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
               "enum": [
-                "Normal value",
-                ""
+                "",
+                "Normal value"
               ]
             },
             "title": "Observation status"
           },
           {
-            "name": "UNIT_MULT",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Units",
-                ""
-              ]
-            },
-            "title": "Unit multiplier"
-          },
-          {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of pupils in primary 4 and primary 6 that achieved minimum proficiency in Mathematics and English (Percent)",
-                "Children who demonstrated foundational literacy and numeracy by locality type (Percent)",
-                "Foundational literacy and numeracy skills of students in P4, P6 and JHS by sex, (Percent)",
-                "Proportion of pupils in JHS that passed Mathematics and English (Percent)",
-                ""
-              ]
-            },
-            "title": "SDG Series"
-          },
-          {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "number",
             "constraints": {
               "enum": [
@@ -62,72 +65,59 @@
             "title": "Reference area"
           },
           {
-            "name": "Sex",
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
+          },
+          {
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
+                "",
                 "Female",
-                ""
+                "Male"
               ]
             },
             "title": "Sex"
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Unit of measure"
+          },
+          {
+            "name": "UNIT_MULT",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
+                "",
+                "Units"
+              ]
+            },
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
                 "Rural",
-                ""
+                "Urban"
               ]
             },
             "title": "Degree of urbanisation"
           },
           {
-            "name": "Education level",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Primary 4",
-                "Primary 6",
-                "Lower secondary education",
-                ""
-              ]
-            },
-            "title": "Education level"
-          },
-          {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Skill: Mathematics",
-                "English",
-                "Skill: Reading",
-                "Skill: Functional numeracy",
-                "Skill: Functional literacy",
-                ""
-              ]
-            },
-            "title": "Composite breakdown"
-          },
-          {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                ""
-              ]
-            },
-            "title": "Unit of measure"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
           }
         ]
       }

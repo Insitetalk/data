@@ -11,46 +11,44 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Basic Service",
+                "Bottled Water",
+                "Limited Service",
+                "Pipe-borne",
+                "Satchet Water",
+                "Safely Managed",
+                "Surface Water",
+                "Tanker/Vendor",
+                "Unimproved",
+                "Well",
+                "Natural Source"
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
           },
           {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
               "enum": [
-                "Normal value",
-                ""
+                "",
+                "Normal value"
               ]
             },
             "title": "Observation status"
           },
           {
-            "name": "UNIT_MULT",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Units",
-                ""
-              ]
-            },
-            "title": "Unit multiplier"
-          },
-          {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Sources of drinking water",
-                "Coverage of Drinking Water Services by Levels",
-                ""
-              ]
-            },
-            "title": "SDG Series"
-          },
-          {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "number",
             "constraints": {
               "enum": [
@@ -60,53 +58,47 @@
             "title": "Reference area"
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Unit of measure"
+          },
+          {
+            "name": "UNIT_MULT",
             "type": "string",
             "constraints": {
               "enum": [
+                "",
+                "Units"
+              ]
+            },
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
                 "Rural",
-                "Urban",
-                ""
+                "Urban"
               ]
             },
             "title": "Degree of urbanisation"
           },
           {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Tanker/Vendor",
-                "Satchet Water",
-                "Bottled Water",
-                "Natural Source",
-                "Well",
-                "Pipe-borne",
-                "Safely Managed",
-                "Basic Service",
-                "Limited Service",
-                "Unimproved",
-                "Surface Water",
-                ""
-              ]
-            },
-            "title": "Composite breakdown"
-          },
-          {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                ""
-              ]
-            },
-            "title": "Unit of measure"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
           }
         ]
       }

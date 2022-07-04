@@ -1,10 +1,10 @@
-Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Sex,Unit of measure,Value
-2010,A,0,Manufacturing employment as a proportion of total employment [9.2.2],,Male,Percent,8.9
-2010,A,0,Manufacturing employment as a proportion of total employment [9.2.2],,Female,Percent,12.7
-2010,A,0,Manufacturing employment as a proportion of total employment [9.2.2],,,Percent,10.8
-2013,A,0,Manufacturing employment as a proportion of total employment [9.2.2],,Male,Percent,7.7
-2013,A,0,Manufacturing employment as a proportion of total employment [9.2.2],,Female,Percent,10.3
-2013,A,0,Manufacturing employment as a proportion of total employment [9.2.2],,,Percent,9.1
-2015,A,0,Manufacturing employment as a proportion of total employment [9.2.2],,Male,Percent,8.6
-2015,A,0,Manufacturing employment as a proportion of total employment [9.2.2],,Female,Percent,17.8
-2015,A,0,Manufacturing employment as a proportion of total employment [9.2.2],,,Percent,13.5
+Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,SEX,UNIT_MEASURE,GeoCode,Value
+2010,A,0,SL_TLF_MANF,,M,PT,,8.9
+2010,A,0,SL_TLF_MANF,,F,PT,,12.7
+2010,A,0,SL_TLF_MANF,,,PT,,10.8
+2013,A,0,SL_TLF_MANF,,M,PT,,7.7
+2013,A,0,SL_TLF_MANF,,F,PT,,10.3
+2013,A,0,SL_TLF_MANF,,,PT,,9.1
+2015,A,0,SL_TLF_MANF,,M,PT,,8.6
+2015,A,0,SL_TLF_MANF,,F,PT,,17.8
+2015,A,0,SL_TLF_MANF,,,PT,,13.5

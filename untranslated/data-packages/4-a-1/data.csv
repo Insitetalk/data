@@ -1,41 +1,41 @@
-Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Composite breakdown,Unit of measure,Value
-2016,A,0,Proportion of schools with access to electricity [4.a.1],,Public,Percent,46
-2016,A,0,Proportion of schools with access to electricity [4.a.1],,Private,Percent,70
-2017,A,0,Proportion of schools with access to electricity [4.a.1],,Public,Percent,51
-2017,A,0,Proportion of schools with access to electricity [4.a.1],,Private,Percent,72
-2018,A,0,Proportion of schools with access to electricity [4.a.1],,Public,Percent,55
-2018,A,0,Proportion of schools with access to electricity [4.a.1],,Private,Percent,75
-2019,A,0,Proportion of schools with access to electricity [4.a.1],,Public,Percent,29
-2019,A,0,Proportion of schools with access to electricity [4.a.1],,Private,Percent,22
-2020,A,0,Proportion of schools with access to electricity [4.a.1],,Public,Percent,60
-2020,A,0,Proportion of schools with access to electricity [4.a.1],,Private,Percent,77
-2016,A,0,Proportion of schools with access to basic drinking water [4.a.1],,Public,Percent,39
-2016,A,0,Proportion of schools with access to basic drinking water [4.a.1],,Private,Percent,73
-2017,A,0,Proportion of schools with access to basic drinking water [4.a.1],,Public,Percent,42
-2017,A,0,Proportion of schools with access to basic drinking water [4.a.1],,Private,Percent,74
-2018,A,0,Proportion of schools with access to basic drinking water [4.a.1],,Public,Percent,71
-2018,A,0,Proportion of schools with access to basic drinking water [4.a.1],,Private,Percent,89
-2019,A,0,Proportion of schools with access to basic drinking water [4.a.1],,Public,Percent,39
-2019,A,0,Proportion of schools with access to basic drinking water [4.a.1],,Private,Percent,25
-2020,A,0,Proportion of schools with access to basic drinking water [4.a.1],,Public,Percent,75
-2020,A,0,Proportion of schools with access to basic drinking water [4.a.1],,Private,Percent,83
-2016,A,0,Proportion of schools with access to toilet facilities,,Public,Percent,62
-2016,A,0,Proportion of schools with access to toilet facilities,,Private,Percent,82
-2017,A,0,Proportion of schools with access to toilet facilities,,Public,Percent,65
-2017,A,0,Proportion of schools with access to toilet facilities,,Private,Percent,82
-2018,A,0,Proportion of schools with access to toilet facilities,,Public,Percent,65
-2018,A,0,Proportion of schools with access to toilet facilities,,Private,Percent,84
-2019,A,0,Proportion of schools with access to toilet facilities,,Public,Percent,33
-2019,A,0,Proportion of schools with access to toilet facilities,,Private,Percent,22
-2020,A,0,Proportion of schools with access to toilet facilities,,Public,Percent,74
-2020,A,0,Proportion of schools with access to toilet facilities,,Private,Percent,89
-2016,A,0,Proportion of schools with access to urinals,,Public,Percent,65
-2016,A,0,Proportion of schools with access to urinals,,Private,Percent,80
-2017,A,0,Proportion of schools with access to urinals,,Public,Percent,67
-2017,A,0,Proportion of schools with access to urinals,,Private,Percent,81
-2018,A,0,Proportion of schools with access to urinals,,Public,Percent,66
-2018,A,0,Proportion of schools with access to urinals,,Private,Percent,82
-2019,A,0,Proportion of schools with access to urinals,,Public,Percent,32
-2019,A,0,Proportion of schools with access to urinals,,Private,Percent,20
-2020,A,0,Proportion of schools with access to urinals,,Public,Percent,69
-2020,A,0,Proportion of schools with access to urinals,,Private,Percent,84
+Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,COMPOSITE_BREAKDOWN,UNIT_MEASURE,GeoCode,Value
+2016,A,0,SE_ACS_ELECT,,_L_GH_PUBLIC,PT,,46
+2016,A,0,SE_ACS_ELECT,,_L_GH_PRIVATE,PT,,70
+2017,A,0,SE_ACS_ELECT,,_L_GH_PUBLIC,PT,,51
+2017,A,0,SE_ACS_ELECT,,_L_GH_PRIVATE,PT,,72
+2018,A,0,SE_ACS_ELECT,,_L_GH_PUBLIC,PT,,55
+2018,A,0,SE_ACS_ELECT,,_L_GH_PRIVATE,PT,,75
+2019,A,0,SE_ACS_ELECT,,_L_GH_PUBLIC,PT,,29
+2019,A,0,SE_ACS_ELECT,,_L_GH_PRIVATE,PT,,22
+2020,A,0,SE_ACS_ELECT,,_L_GH_PUBLIC,PT,,60
+2020,A,0,SE_ACS_ELECT,,_L_GH_PRIVATE,PT,,77
+2016,A,0,SE_ACS_H2O,,_L_GH_PUBLIC,PT,,39
+2016,A,0,SE_ACS_H2O,,_L_GH_PRIVATE,PT,,73
+2017,A,0,SE_ACS_H2O,,_L_GH_PUBLIC,PT,,42
+2017,A,0,SE_ACS_H2O,,_L_GH_PRIVATE,PT,,74
+2018,A,0,SE_ACS_H2O,,_L_GH_PUBLIC,PT,,71
+2018,A,0,SE_ACS_H2O,,_L_GH_PRIVATE,PT,,89
+2019,A,0,SE_ACS_H2O,,_L_GH_PUBLIC,PT,,39
+2019,A,0,SE_ACS_H2O,,_L_GH_PRIVATE,PT,,25
+2020,A,0,SE_ACS_H2O,,_L_GH_PUBLIC,PT,,75
+2020,A,0,SE_ACS_H2O,,_L_GH_PRIVATE,PT,,83
+2016,A,0,_L_GH_040a01_01,,_L_GH_PUBLIC,PT,,62
+2016,A,0,_L_GH_040a01_01,,_L_GH_PRIVATE,PT,,82
+2017,A,0,_L_GH_040a01_01,,_L_GH_PUBLIC,PT,,65
+2017,A,0,_L_GH_040a01_01,,_L_GH_PRIVATE,PT,,82
+2018,A,0,_L_GH_040a01_01,,_L_GH_PUBLIC,PT,,65
+2018,A,0,_L_GH_040a01_01,,_L_GH_PRIVATE,PT,,84
+2019,A,0,_L_GH_040a01_01,,_L_GH_PUBLIC,PT,,33
+2019,A,0,_L_GH_040a01_01,,_L_GH_PRIVATE,PT,,22
+2020,A,0,_L_GH_040a01_01,,_L_GH_PUBLIC,PT,,74
+2020,A,0,_L_GH_040a01_01,,_L_GH_PRIVATE,PT,,89
+2016,A,0,_L_GH_040a01_02,,_L_GH_PUBLIC,PT,,65
+2016,A,0,_L_GH_040a01_02,,_L_GH_PRIVATE,PT,,80
+2017,A,0,_L_GH_040a01_02,,_L_GH_PUBLIC,PT,,67
+2017,A,0,_L_GH_040a01_02,,_L_GH_PRIVATE,PT,,81
+2018,A,0,_L_GH_040a01_02,,_L_GH_PUBLIC,PT,,66
+2018,A,0,_L_GH_040a01_02,,_L_GH_PRIVATE,PT,,82
+2019,A,0,_L_GH_040a01_02,,_L_GH_PUBLIC,PT,,32
+2019,A,0,_L_GH_040a01_02,,_L_GH_PRIVATE,PT,,20
+2020,A,0,_L_GH_040a01_02,,_L_GH_PUBLIC,PT,,69
+2020,A,0,_L_GH_040a01_02,,_L_GH_PRIVATE,PT,,84

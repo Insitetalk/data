@@ -1,7 +1,5 @@
 From,To
 OBS_STATUS,UNIT_MULT
-UNIT_MULT,SDG Series
-SDG Series,Unit of measure
-Unit of measure,Reference area
-Unit of measure,Sex
-Unit of measure,Degree of urbanisation
+UNIT_MULT,REF_AREA
+UNIT_MULT,SEX
+UNIT_MULT,URBANISATION

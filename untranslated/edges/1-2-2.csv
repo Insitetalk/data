@@ -1,9 +1,7 @@
 From,To
 OBS_STATUS,UNIT_MULT
-UNIT_MULT,SDG Series
-SDG Series,Unit of measure
-Unit of measure,Reference area
-Age,Composite breakdown
-Unit of measure,Age
-Unit of measure,Degree of urbanisation
-Unit of measure,COMMENT_OBS
+UNIT_MULT,REF_AREA
+UNIT_MULT,AGE
+UNIT_MULT,URBANISATION
+UNIT_MULT,COMMENT_OBS
+AGE,COMPOSITE_BREAKDOWN

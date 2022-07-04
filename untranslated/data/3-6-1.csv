@@ -1,8 +1,8 @@
-Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
-2012,A,0,Death rate due to road traffic injuries [3.6.1],,"Per 100,000 population",10.54
-2013,A,0,Death rate due to road traffic injuries [3.6.1],,"Per 100,000 population",11.24
-2014,A,0,Death rate due to road traffic injuries [3.6.1],,"Per 100,000 population",8.08
-2015,A,0,Death rate due to road traffic injuries [3.6.1],,"Per 100,000 population",7.62
-2016,A,0,Death rate due to road traffic injuries [3.6.1],,"Per 100,000 population",4.41
-2017,A,0,Death rate due to road traffic injuries [3.6.1],,"Per 100,000 population",7.19
-2018,A,0,Death rate due to road traffic injuries [3.6.1],,"Per 100,000 population",7.95
+Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
+2012,A,0,SH_STA_TRAF,,PER_100000_POP,,10.54
+2013,A,0,SH_STA_TRAF,,PER_100000_POP,,11.24
+2014,A,0,SH_STA_TRAF,,PER_100000_POP,,8.08
+2015,A,0,SH_STA_TRAF,,PER_100000_POP,,7.62
+2016,A,0,SH_STA_TRAF,,PER_100000_POP,,4.41
+2017,A,0,SH_STA_TRAF,,PER_100000_POP,,7.19
+2018,A,0,SH_STA_TRAF,,PER_100000_POP,,7.95

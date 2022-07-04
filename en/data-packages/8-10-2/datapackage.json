@@ -11,45 +11,34 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "15 years old and over"
+              ]
+            },
+            "title": "Age"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
           },
           {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
               "enum": [
-                "Normal value",
-                ""
+                "",
+                "Normal value"
               ]
             },
             "title": "Observation status"
           },
           {
-            "name": "UNIT_MULT",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Units",
-                ""
-              ]
-            },
-            "title": "Unit multiplier"
-          },
-          {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider [8.10.2]",
-                ""
-              ]
-            },
-            "title": "SDG Series"
-          },
-          {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "number",
             "constraints": {
               "enum": [
@@ -59,31 +48,35 @@
             "title": "Reference area"
           },
           {
-            "name": "Age",
+            "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "15 years old and over",
-                ""
-              ]
-            },
-            "title": "Age"
+            "title": "SDG Series"
           },
           {
-            "name": "Unit of measure",
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Unit of measure"
+          },
+          {
+            "name": "UNIT_MULT",
             "type": "string",
             "constraints": {
               "enum": [
-                "Percent",
-                ""
+                "",
+                "Units"
               ]
             },
-            "title": "Unit of measure"
+            "title": "Unit multiplier"
           },
           {
             "name": "Value",
             "type": "number",
             "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
           }
         ]
       }

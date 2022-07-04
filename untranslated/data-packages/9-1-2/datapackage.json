@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "OBS_STATUS",
@@ -35,21 +35,11 @@
             }
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Freight volume (tonne kilometres) [9.1.2]",
-                "Passenger volume (passenger kilometres) [9.1.2]",
-                "Container port traffic (twenty-foot equivalent units - TEUs) [9.1.2]",
-                "Domestic passengers",
-                "International passengers",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Reference area",
+            "name": "REF_AREA",
             "type": "number",
             "constraints": {
               "enum": [
@@ -58,28 +48,25 @@
             }
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Mode of Transport: Air",
-                "Mode of Transport: Rail",
-                "Mode of Transport: Maritime",
-                "Mode of transport: Inland waterway transport",
+                "MOT_AIR",
+                "MOT_RAI",
+                "MOT_SEA",
+                "MOT_IWW",
                 ""
               ]
             }
           },
           {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Metric Tons",
-                "Number",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number"
           },
           {
             "name": "Value",

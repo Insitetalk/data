@@ -1,9 +1,9 @@
-Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
-2015,A,0,Proportion of total government spending on health [1.a.2],,Percent,7.6
-2016,A,0,Proportion of total government spending on health [1.a.2],,Percent,8.3
-2017,A,0,Proportion of total government spending on health [1.a.2],,Percent,12.3
-2018,A,0,Proportion of total government spending on health [1.a.2],,Percent,8.7
-2015,A,0,"Proportion of total government spending on essential services, education [1.a.2]",,Percent,19.5
-2016,A,0,"Proportion of total government spending on essential services, education [1.a.2]",,Percent,20.0
-2017,A,0,"Proportion of total government spending on essential services, education [1.a.2]",,Percent,23.5
-2018,A,0,"Proportion of total government spending on essential services, education [1.a.2]",,Percent,24.4
+Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
+2015,A,0,SG_XPD_HLTH,,PT,,7.6
+2016,A,0,SG_XPD_HLTH,,PT,,8.3
+2017,A,0,SG_XPD_HLTH,,PT,,12.3
+2018,A,0,SG_XPD_HLTH,,PT,,8.7
+2015,A,0,SD_XPD_ESED,,PT,,19.5
+2016,A,0,SD_XPD_ESED,,PT,,20.0
+2017,A,0,SD_XPD_ESED,,PT,,23.5
+2018,A,0,SD_XPD_ESED,,PT,,24.4

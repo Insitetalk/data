@@ -1,6 +1,4 @@
 From,To
 OBS_STATUS,UNIT_MULT
-UNIT_MULT,SDG Series
-SDG Series,Unit of measure
-Sex,Composite breakdown
-Unit of measure,Sex
+UNIT_MULT,SEX
+SEX,COMPOSITE_BREAKDOWN

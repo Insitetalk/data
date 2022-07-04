@@ -1,1 +1,1 @@
-{"From":["OBS_STATUS","UNIT_MULT","SDG Series","Type of product"],"To":["UNIT_MULT","SDG Series","Type of product","Unit of measure"]}
+{"From":["OBS_STATUS","UNIT_MULT"],"To":["UNIT_MULT","PRODUCT"]}

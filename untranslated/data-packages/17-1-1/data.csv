@@ -1,6 +1,6 @@
-Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
-2016,A,0,Total government revenue as a proportion of GDP [17.1.1],,Percent,20.0
-2017,A,0,Total government revenue as a proportion of GDP [17.1.1],,Percent,20.2
-2018,A,0,Total government revenue as a proportion of GDP [17.1.1],,Percent,15.9
-2019,A,0,Total government revenue as a proportion of GDP [17.1.1],,Percent,15.3
-2020,A,0,Total government revenue as a proportion of GDP [17.1.1],,Percent,14.4
+Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
+2016,A,0,GR_G14_GDP,,PT,,20.0
+2017,A,0,GR_G14_GDP,,PT,,20.2
+2018,A,0,GR_G14_GDP,,PT,,15.9
+2019,A,0,GR_G14_GDP,,PT,,15.3
+2020,A,0,GR_G14_GDP,,PT,,14.4
