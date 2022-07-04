@@ -11,50 +11,47 @@
       "schema": {
         "fields": [
           {
-            "name": "COMPOSITE_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Private",
-                "Public"
-              ]
-            },
-            "title": "Composite breakdown"
-          },
-          {
-            "name": "EDUCATION_LEV",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Early childhood education",
-                "Pre-primary education",
-                "Primary education",
-                "Lower secondary education",
-                "Upper secondary education"
-              ]
-            },
-            "title": "Education level"
-          },
-          {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Normal value"
+                "Normal value",
+                ""
               ]
             },
             "title": "Observation status"
           },
           {
-            "name": "REF_AREA",
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Units",
+                ""
+              ]
+            },
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pupil-trained teacher ratio by academic year at the basic level",
+                "Comparison of Pupil-trained teacher ratio by year at the basic level",
+                "Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country [4.c.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Reference area",
             "type": "number",
             "constraints": {
               "enum": [
@@ -64,35 +61,48 @@
             "title": "Reference area"
           },
           {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Unit of measure"
-          },
-          {
-            "name": "UNIT_MULT",
+            "name": "Education level",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Units"
+                "Early childhood education",
+                "Pre-primary education",
+                "Primary education",
+                "Lower secondary education",
+                "Upper secondary education",
+                ""
               ]
             },
-            "title": "Unit multiplier"
+            "title": "Education level"
+          },
+          {
+            "name": "Composite breakdown",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Public",
+                "Private",
+                ""
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ratio",
+                "Percent",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
           },
           {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }

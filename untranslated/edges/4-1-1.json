@@ -1,1 +1,1 @@
-{"From":["OBS_STATUS","UNIT_MULT","COMPOSITE_BREAKDOWN","COMPOSITE_BREAKDOWN","COMPOSITE_BREAKDOWN"],"To":["UNIT_MULT","COMPOSITE_BREAKDOWN","SEX","URBANISATION","EDUCATION_LEV"]}
+{"From":["OBS_STATUS","UNIT_MULT","SDG Series","Unit of measure","Unit of measure","Unit of measure","Composite breakdown"],"To":["UNIT_MULT","SDG Series","Composite breakdown","Sex","Degree of urbanisation","Education level","Unit of measure"]}

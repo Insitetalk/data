@@ -1,1 +1,1 @@
-{"Year":["2013","2017"],"OBS_STATUS":["A","A"],"UNIT_MULT":["0","0"],"SERIES":["_L_GH_100101_01","_L_GH_100101_01"],"REF_AREA":[null,null],"UNIT_MEASURE":["PT","PT"],"GeoCode":[null,null],"Value":[12.5,22.0]}
+{"Year":[2013,2017],"OBS_STATUS":["A","A"],"UNIT_MULT":["0","0"],"SDG Series":["Expenditure share of the bottom 40 percent of the population","Expenditure share of the bottom 40 percent of the population"],"Reference area":[null,null],"Unit of measure":["Percent","Percent"],"Value":[12.5,22.0]}

@@ -1,5 +1,5 @@
-Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
-2016,A,0,GC_GOB_TAXD,,PT,,49.6
-2017,A,0,GC_GOB_TAXD,,PT,,63.2
-2018,A,0,GC_GOB_TAXD,,PT,,64.3
-2019,A,0,GC_GOB_TAXD,,PT,,75.6
+Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
+2016,A,0,Proportion of domestic budget funded by domestic taxes [17.1.2],,Percent,49.6
+2017,A,0,Proportion of domestic budget funded by domestic taxes [17.1.2],,Percent,63.2
+2018,A,0,Proportion of domestic budget funded by domestic taxes [17.1.2],,Percent,64.3
+2019,A,0,Proportion of domestic budget funded by domestic taxes [17.1.2],,Percent,75.6

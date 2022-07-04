@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "OBS_STATUS",
@@ -35,48 +35,56 @@
             }
           },
           {
-            "name": "SERIES",
-            "type": "string"
-          },
-          {
-            "name": "REF_AREA",
+            "name": "SDG Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "10_o",
-                "09_o",
-                "02_o",
-                "04_o",
-                "06_o",
-                "05_o",
-                "03_o",
-                "07_o",
-                "08_o",
-                "01_o",
+                "Gender parity index for participation rate in formal and non-formal education and training [4.5.1]",
                 ""
               ]
             }
           },
           {
-            "name": "EDUCATION_LEV",
+            "name": "Reference area",
             "type": "string",
             "constraints": {
               "enum": [
-                "ISCED11_02",
-                "ISCED11_1",
-                "ISCED11_2",
-                "ISCED11_3",
+                "Upper West",
+                "Upper East",
+                "Central",
+                "Volta",
+                "Ashanti",
+                "Eastern",
+                "Greater Accra",
+                "Brong Ahafo",
+                "Northern",
+                "Western",
                 ""
               ]
             }
           },
           {
-            "name": "UNIT_MEASURE",
-            "type": "string"
+            "name": "Education level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pre-primary education",
+                "Primary education",
+                "Lower secondary education",
+                "Upper secondary education",
+                ""
+              ]
+            }
           },
           {
-            "name": "GeoCode",
-            "type": "string"
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Index",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

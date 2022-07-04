@@ -1,2 +1,7 @@
 From,To
-Age,COMPOSITE_BREAKDOWN
+SDG Series,Unit of measure
+Unit of measure,Reference area
+Age,Composite breakdown
+Unit of measure,Age
+Unit of measure,Degree of urbanisation
+Unit of measure,Observation-level footnotes

@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "OBS_STATUS",
@@ -35,11 +35,20 @@
             }
           },
           {
-            "name": "SERIES",
-            "type": "string"
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of schools with access to electricity [4.a.1]",
+                "Proportion of schools with access to basic drinking water [4.a.1]",
+                "Proportion of schools with access to toilet facilities",
+                "Proportion of schools with access to urinals",
+                ""
+              ]
+            }
           },
           {
-            "name": "REF_AREA",
+            "name": "Reference area",
             "type": "number",
             "constraints": {
               "enum": [
@@ -48,23 +57,25 @@
             }
           },
           {
-            "name": "COMPOSITE_BREAKDOWN",
+            "name": "Composite breakdown",
             "type": "string",
             "constraints": {
               "enum": [
-                "_L_GH_PUBLIC",
-                "_L_GH_PRIVATE",
+                "Public",
+                "Private",
                 ""
               ]
             }
           },
           {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "GeoCode",
-            "type": "number"
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

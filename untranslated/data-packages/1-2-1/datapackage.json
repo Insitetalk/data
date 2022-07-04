@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "OBS_STATUS",
@@ -35,57 +35,65 @@
             }
           },
           {
-            "name": "SERIES",
-            "type": "string"
-          },
-          {
-            "name": "REF_AREA",
+            "name": "SDG Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "10_o",
-                "09_o",
-                "08_o",
-                "07_o",
-                "06_o",
-                "05_o",
-                "04_o",
-                "03_o",
-                "02_o",
-                "01_o",
+                "Proportion of population living below the national poverty line [1.2.1]",
                 ""
               ]
             }
           },
           {
-            "name": "SEX",
+            "name": "Reference area",
             "type": "string",
             "constraints": {
               "enum": [
-                "M",
-                "F",
+                "Upper West",
+                "Upper East",
+                "Northern",
+                "Brong Ahafo",
+                "Ashanti",
+                "Eastern",
+                "Volta",
+                "Greater Accra",
+                "Central",
+                "Western",
                 ""
               ]
             }
           },
           {
-            "name": "URBANISATION",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "R",
-                "U",
+                "Male",
+                "Female",
                 ""
               ]
             }
           },
           {
-            "name": "UNIT_MEASURE",
-            "type": "string"
+            "name": "Degree of urbanisation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Rural",
+                "Urban",
+                ""
+              ]
+            }
           },
           {
-            "name": "GeoCode",
-            "type": "string"
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

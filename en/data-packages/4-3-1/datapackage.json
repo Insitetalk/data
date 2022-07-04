@@ -11,59 +11,53 @@
       "schema": {
         "fields": [
           {
-            "name": "COMPOSITE_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Private",
-                "Public"
-              ]
-            },
-            "title": "Composite breakdown"
-          },
-          {
-            "name": "CUST_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "GES",
-                "Other public"
-              ]
-            },
-            "title": "Custom Breakdown"
-          },
-          {
-            "name": "EDUCATION_LEV",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Vocational secondary education",
-                "Upper secondary vocational education"
-              ]
-            },
-            "title": "Education level"
-          },
-          {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Normal value"
+                "Normal value",
+                ""
               ]
             },
             "title": "Observation status"
           },
           {
-            "name": "REF_AREA",
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Units",
+                ""
+              ]
+            },
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Enrolment for National Functional Literacy Programme (number of classes)",
+                "Enrolment for National Functional Literacy Programme (number of students)",
+                "Enrolment for National Functional Literacy Programme (percentage girls)",
+                "Enrolment in TVET Programmes in Senior High Technical Schools (number of schools)",
+                "Enrolment in TVET Programmes in Senior High Technical Schools (Private Schools as share (%) of total enrolment)",
+                "Enrolment in TVET Programmes in Senior High Technical Schools (number of students)",
+                "Enrolment in TVET Programmes in Senior High Technical Schools (Girls' share in enrolment)",
+                "Number of Technical and Vocational Institutes (number of institutions)",
+                "Number of Technical and Vocational Institutes (Enrolled students)",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Reference area",
             "type": "number",
             "constraints": {
               "enum": [
@@ -73,47 +67,69 @@
             "title": "Reference area"
           },
           {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
-          {
-            "name": "SEX",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
+                "Male",
                 "Female",
-                "Male"
+                ""
               ]
             },
             "title": "Sex"
           },
           {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Unit of measure"
-          },
-          {
-            "name": "UNIT_MULT",
+            "name": "Education level",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Units"
+                "Upper secondary vocational education",
+                "Vocational secondary education",
+                ""
               ]
             },
-            "title": "Unit multiplier"
+            "title": "Education level"
+          },
+          {
+            "name": "Custom Breakdown",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "GES",
+                "Other public",
+                ""
+              ]
+            },
+            "title": "Custom Breakdown"
+          },
+          {
+            "name": "Composite breakdown",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Public",
+                "Private",
+                ""
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number",
+                "Percent",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
           },
           {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }

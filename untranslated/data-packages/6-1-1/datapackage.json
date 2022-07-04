@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "OBS_STATUS",
@@ -35,11 +35,18 @@
             }
           },
           {
-            "name": "SERIES",
-            "type": "string"
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Sources of drinking water",
+                "Coverage of Drinking Water Services by Levels",
+                ""
+              ]
+            }
           },
           {
-            "name": "REF_AREA",
+            "name": "Reference area",
             "type": "number",
             "constraints": {
               "enum": [
@@ -48,43 +55,45 @@
             }
           },
           {
-            "name": "URBANISATION",
+            "name": "Degree of urbanisation",
             "type": "string",
             "constraints": {
               "enum": [
-                "R",
-                "U",
+                "Rural",
+                "Urban",
                 ""
               ]
             }
           },
           {
-            "name": "COMPOSITE_BREAKDOWN",
+            "name": "Composite breakdown",
             "type": "string",
             "constraints": {
               "enum": [
-                "_L_GH_TANKER",
-                "_L_GH_SACHET_WATER",
-                "_L_GH_BOTTLED_WATER",
-                "_NATURAL_SOURCE",
-                "_L_GH_WELL",
-                "_L_GH_PIPE_BORNE",
-                "_L_GH_SAFELY_MANAGED",
-                "_L_GH_BASIC_SERVICE",
-                "_L_GH_LIMITED_SERVICE",
-                "_L_GH_UNIMPROVED",
-                "_L_GH_SURFACE_WATER",
+                "Tanker/Vendor",
+                "Satchet Water",
+                "Bottled Water",
+                "Natural Source",
+                "Well",
+                "Pipe-borne",
+                "Safely Managed",
+                "Basic Service",
+                "Limited Service",
+                "Unimproved",
+                "Surface Water",
                 ""
               ]
             }
           },
           {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "GeoCode",
-            "type": "number"
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

@@ -1,53 +1,53 @@
-Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,URBANISATION,COMPOSITE_BREAKDOWN,UNIT_MEASURE,GeoCode,Value
-2003,A,0,SH_STA_BRTC,,,,PT,,47.1
-2008,A,0,SH_STA_BRTC,,,,PT,,58.7
-2014,A,0,SH_STA_BRTC,,,,PT,,73.7
-2017,A,0,SH_STA_BRTC,,,,PT,,79.0
-2014,A,0,SH_STA_BRTC,10_o,,,PT,10_o,63.7
-2017,A,0,SH_STA_BRTC,10_o,,,PT,10_o,83.0
-2014,A,0,SH_STA_BRTC,09_o,,,PT,09_o,84.6
-2017,A,0,SH_STA_BRTC,09_o,,,PT,09_o,94.0
-2014,A,0,SH_STA_BRTC,08_o,,,PT,08_o,36.4
-2017,A,0,SH_STA_BRTC,08_o,,,PT,08_o,60.0
-2014,A,0,SH_STA_BRTC,07_o,,,PT,07_o,79.0
-2017,A,0,SH_STA_BRTC,07_o,,,PT,07_o,86.0
-2014,A,0,SH_STA_BRTC,06_o,,,PT,06_o,86.3
-2017,A,0,SH_STA_BRTC,06_o,,,PT,06_o,82.0
-2014,A,0,SH_STA_BRTC,05_o,,,PT,05_o,67.2
-2017,A,0,SH_STA_BRTC,05_o,,,PT,05_o,79.0
-2014,A,0,SH_STA_BRTC,04_o,,,PT,04_o,66.3
-2017,A,0,SH_STA_BRTC,04_o,,,PT,04_o,69.0
-2014,A,0,SH_STA_BRTC,03_o,,,PT,03_o,92.1
-2017,A,0,SH_STA_BRTC,03_o,,,PT,03_o,93.0
-2014,A,0,SH_STA_BRTC,02_o,,,PT,02_o,72.0
-2017,A,0,SH_STA_BRTC,02_o,,,PT,02_o,73.0
-2014,A,0,SH_STA_BRTC,01_o,,,PT,01_o,75.3
-2017,A,0,SH_STA_BRTC,01_o,,,PT,01_o,80.0
-2017,A,0,_L_GH_030102_01,,U,,PT,,11.0
-2017,A,0,_L_GH_030102_01,08_o,U,,PT,08_o,18.0
-2017,A,0,_L_GH_030102_01,04_o,U,,PT,04_o,22.0
-2017,A,0,_L_GH_030102_01,05_o,U,,PT,05_o,9.0
-2017,A,0,_L_GH_030102_01,02_o,U,,PT,02_o,16.0
-2017,A,0,_L_GH_030102_01,01_o,U,,PT,01_o,11.0
-2017,A,0,_L_GH_030102_01,07_o,U,,PT,07_o,9.0
-2017,A,0,_L_GH_030102_01,06_o,U,,PT,06_o,6.0
-2017,A,0,_L_GH_030102_01,10_o,U,,PT,10_o,6.0
-2017,A,0,_L_GH_030102_01,03_o,U,,PT,03_o,8.0
-2017,A,0,_L_GH_030102_01,09_o,U,,PT,09_o,4.0
-2017,A,0,_L_GH_030102_01,,R,,PT,,29.0
-2017,A,0,_L_GH_030102_01,08_o,R,,PT,08_o,49.0
-2017,A,0,_L_GH_030102_01,04_o,R,,PT,04_o,45.0
-2017,A,0,_L_GH_030102_01,05_o,R,,PT,05_o,32.0
-2017,A,0,_L_GH_030102_01,02_o,R,,PT,02_o,31.0
-2017,A,0,_L_GH_030102_01,01_o,R,,PT,01_o,30.0
-2017,A,0,_L_GH_030102_01,07_o,R,,PT,07_o,28.0
-2017,A,0,_L_GH_030102_01,06_o,R,,PT,06_o,27.0
-2017,A,0,_L_GH_030102_01,10_o,R,,PT,10_o,22.0
-2017,A,0,_L_GH_030102_01,03_o,R,,PT,03_o,14.0
-2017,A,0,_L_GH_030102_01,09_o,R,,PT,09_o,10.0
-2017,A,0,_L_GH_030102_02,,,_L_GH_SKILLED_CARE,PT,,91.0
-2017,A,0,_L_GH_030102_02,,,_L_GH_UNSKILLED_CARE,PT,,2.0
-2017,A,0,_L_GH_030102_02,,,_L_GH_NO_CARE,PT,,7.0
-2017,A,0,_L_GH_030102_03,,,_L_GH_SKILLED_CARE,PT,,54.0
-2017,A,0,_L_GH_030102_03,,,_L_GH_UNSKILLED_CARE,PT,,21.0
-2017,A,0,_L_GH_030102_03,,,_L_GH_NO_CARE,PT,,25.0
+Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Degree of urbanisation,Composite breakdown,Unit of measure,Value
+2003,A,0,Proportion of births attended by skilled health personnel [3.1.2],,,,Percent,47.1
+2008,A,0,Proportion of births attended by skilled health personnel [3.1.2],,,,Percent,58.7
+2014,A,0,Proportion of births attended by skilled health personnel [3.1.2],,,,Percent,73.7
+2017,A,0,Proportion of births attended by skilled health personnel [3.1.2],,,,Percent,79.0
+2014,A,0,Proportion of births attended by skilled health personnel [3.1.2],Upper West,,,Percent,63.7
+2017,A,0,Proportion of births attended by skilled health personnel [3.1.2],Upper West,,,Percent,83.0
+2014,A,0,Proportion of births attended by skilled health personnel [3.1.2],Upper East,,,Percent,84.6
+2017,A,0,Proportion of births attended by skilled health personnel [3.1.2],Upper East,,,Percent,94.0
+2014,A,0,Proportion of births attended by skilled health personnel [3.1.2],Northern,,,Percent,36.4
+2017,A,0,Proportion of births attended by skilled health personnel [3.1.2],Northern,,,Percent,60.0
+2014,A,0,Proportion of births attended by skilled health personnel [3.1.2],Brong Ahafo,,,Percent,79.0
+2017,A,0,Proportion of births attended by skilled health personnel [3.1.2],Brong Ahafo,,,Percent,86.0
+2014,A,0,Proportion of births attended by skilled health personnel [3.1.2],Ashanti,,,Percent,86.3
+2017,A,0,Proportion of births attended by skilled health personnel [3.1.2],Ashanti,,,Percent,82.0
+2014,A,0,Proportion of births attended by skilled health personnel [3.1.2],Eastern,,,Percent,67.2
+2017,A,0,Proportion of births attended by skilled health personnel [3.1.2],Eastern,,,Percent,79.0
+2014,A,0,Proportion of births attended by skilled health personnel [3.1.2],Volta,,,Percent,66.3
+2017,A,0,Proportion of births attended by skilled health personnel [3.1.2],Volta,,,Percent,69.0
+2014,A,0,Proportion of births attended by skilled health personnel [3.1.2],Greater Accra,,,Percent,92.1
+2017,A,0,Proportion of births attended by skilled health personnel [3.1.2],Greater Accra,,,Percent,93.0
+2014,A,0,Proportion of births attended by skilled health personnel [3.1.2],Central,,,Percent,72.0
+2017,A,0,Proportion of births attended by skilled health personnel [3.1.2],Central,,,Percent,73.0
+2014,A,0,Proportion of births attended by skilled health personnel [3.1.2],Western,,,Percent,75.3
+2017,A,0,Proportion of births attended by skilled health personnel [3.1.2],Western,,,Percent,80.0
+2017,A,0,Homes deliveries by region and locality type,,Urban,,Percent,11.0
+2017,A,0,Homes deliveries by region and locality type,Northern,Urban,,Percent,18.0
+2017,A,0,Homes deliveries by region and locality type,Volta,Urban,,Percent,22.0
+2017,A,0,Homes deliveries by region and locality type,Eastern,Urban,,Percent,9.0
+2017,A,0,Homes deliveries by region and locality type,Central,Urban,,Percent,16.0
+2017,A,0,Homes deliveries by region and locality type,Western,Urban,,Percent,11.0
+2017,A,0,Homes deliveries by region and locality type,Brong Ahafo,Urban,,Percent,9.0
+2017,A,0,Homes deliveries by region and locality type,Ashanti,Urban,,Percent,6.0
+2017,A,0,Homes deliveries by region and locality type,Upper West,Urban,,Percent,6.0
+2017,A,0,Homes deliveries by region and locality type,Greater Accra,Urban,,Percent,8.0
+2017,A,0,Homes deliveries by region and locality type,Upper East,Urban,,Percent,4.0
+2017,A,0,Homes deliveries by region and locality type,,Rural,,Percent,29.0
+2017,A,0,Homes deliveries by region and locality type,Northern,Rural,,Percent,49.0
+2017,A,0,Homes deliveries by region and locality type,Volta,Rural,,Percent,45.0
+2017,A,0,Homes deliveries by region and locality type,Eastern,Rural,,Percent,32.0
+2017,A,0,Homes deliveries by region and locality type,Central,Rural,,Percent,31.0
+2017,A,0,Homes deliveries by region and locality type,Western,Rural,,Percent,30.0
+2017,A,0,Homes deliveries by region and locality type,Brong Ahafo,Rural,,Percent,28.0
+2017,A,0,Homes deliveries by region and locality type,Ashanti,Rural,,Percent,27.0
+2017,A,0,Homes deliveries by region and locality type,Upper West,Rural,,Percent,22.0
+2017,A,0,Homes deliveries by region and locality type,Greater Accra,Rural,,Percent,14.0
+2017,A,0,Homes deliveries by region and locality type,Upper East,Rural,,Percent,10.0
+2017,A,0,Type of care received during Health facility delivery,,,Skilled Care,Percent,91.0
+2017,A,0,Type of care received during Health facility delivery,,,Unskilled Care,Percent,2.0
+2017,A,0,Type of care received during Health facility delivery,,,No Care,Percent,7.0
+2017,A,0,Type of care received during Home delivery,,,Skilled Care,Percent,54.0
+2017,A,0,Type of care received during Home delivery,,,Unskilled Care,Percent,21.0
+2017,A,0,Type of care received during Home delivery,,,No Care,Percent,25.0

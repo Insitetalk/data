@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "OBS_STATUS",
@@ -35,11 +35,17 @@
             }
           },
           {
-            "name": "SERIES",
-            "type": "string"
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Under-five mortality rate [3.2.1]",
+                ""
+              ]
+            }
           },
           {
-            "name": "REF_AREA",
+            "name": "Reference area",
             "type": "number",
             "constraints": {
               "enum": [
@@ -48,12 +54,14 @@
             }
           },
           {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "GeoCode",
-            "type": "number"
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Per 100,000 live births",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

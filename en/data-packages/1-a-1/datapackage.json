@@ -11,38 +11,53 @@
       "schema": {
         "fields": [
           {
-            "name": "COMPOSITE_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Development Partner",
-                "Government of Ghana",
-                "Internally Generated Funds",
-                "Other Fund",
-                "Statutory"
-              ]
-            },
-            "title": "Composite breakdown"
-          },
-          {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Normal value"
+                "Normal value",
+                ""
               ]
             },
             "title": "Observation status"
           },
           {
-            "name": "REF_AREA",
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Units",
+                ""
+              ]
+            },
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Budget Allocation towards Extreme poverty (in million Ghana Cedi)",
+                "Budget Allocation towards reducing poverty proportion of men, women and children by at least half (in million Ghana Cedi)",
+                "Budget Allocation towards Social dimension (in million Ghana Cedi)",
+                "Budget Allocation towards Equal rights to basic services (in million Ghana Cedi)",
+                "Budget Allocation towards Building resilience of the poor and vulnerable (in million Ghana Cedi)",
+                "Budget Allocation towards Mobilisation of resources (in million Ghana Cedi)",
+                "Budget Allocation towards Pro-poor and Gender (in million Ghana Cedi)",
+                "Total Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs (in million Ghana Cedi)",
+                "Percentage share of Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Reference area",
             "type": "number",
             "constraints": {
               "enum": [
@@ -52,35 +67,36 @@
             "title": "Reference area"
           },
           {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Unit of measure"
-          },
-          {
-            "name": "UNIT_MULT",
+            "name": "Composite breakdown",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Units"
+                "Government of Ghana",
+                "Internally Generated Funds",
+                "Other Fund",
+                "Statutory",
+                "Development Partner",
+                ""
               ]
             },
-            "title": "Unit multiplier"
+            "title": "Composite breakdown"
+          },
+          {
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ghana Cedi",
+                "Percent",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
           },
           {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }

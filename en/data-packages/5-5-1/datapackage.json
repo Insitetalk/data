@@ -11,23 +11,47 @@
       "schema": {
         "fields": [
           {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Normal value"
+                "Normal value",
+                ""
               ]
             },
             "title": "Observation status"
           },
           {
-            "name": "REF_AREA",
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Units",
+                ""
+              ]
+            },
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of seats held by women in national parliaments (% of total number of seats) [5.5.1]",
+                "Proportion of elected seats held by women in deliberative bodies of local government [5.5.1]",
+                "Proportion of women among Metropolitan, Municipal, and District Chief Executives (MMDCES)",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Reference area",
             "type": "number",
             "constraints": {
               "enum": [
@@ -37,46 +61,31 @@
             "title": "Reference area"
           },
           {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
-          {
-            "name": "SEX",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Female"
+                "Female",
+                ""
               ]
             },
             "title": "Sex"
           },
           {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Unit of measure"
-          },
-          {
-            "name": "UNIT_MULT",
+            "name": "Unit of measure",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Units"
+                "Percent",
+                ""
               ]
             },
-            "title": "Unit multiplier"
+            "title": "Unit of measure"
           },
           {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }

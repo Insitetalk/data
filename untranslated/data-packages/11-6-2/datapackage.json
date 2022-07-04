@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "OBS_STATUS",
@@ -35,26 +35,34 @@
             }
           },
           {
-            "name": "SERIES",
-            "type": "string"
-          },
-          {
-            "name": "REF_AREA",
+            "name": "SDG Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "03_o",
+                "Annual mean levels of fine particulate matter in cities, urban population [11.6.2]",
                 ""
               ]
             }
           },
           {
-            "name": "UNIT_MEASURE",
-            "type": "string"
+            "name": "Reference area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Greater Accra",
+                ""
+              ]
+            }
           },
           {
-            "name": "GeoCode",
-            "type": "string"
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Micrograms per cubic meter",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

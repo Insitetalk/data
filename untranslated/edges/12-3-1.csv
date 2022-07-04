@@ -1,3 +1,5 @@
 From,To
 OBS_STATUS,UNIT_MULT
-UNIT_MULT,PRODUCT
+UNIT_MULT,SDG Series
+SDG Series,Type of product
+Type of product,Unit of measure

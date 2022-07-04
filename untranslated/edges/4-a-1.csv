@@ -1,3 +1,5 @@
 From,To
 OBS_STATUS,UNIT_MULT
-UNIT_MULT,COMPOSITE_BREAKDOWN
+UNIT_MULT,SDG Series
+SDG Series,Composite breakdown
+Composite breakdown,Unit of measure

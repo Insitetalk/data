@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "OBS_STATUS",
@@ -35,11 +35,25 @@
             }
           },
           {
-            "name": "SERIES",
-            "type": "string"
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Enrolment for National Functional Literacy Programme (number of classes)",
+                "Enrolment for National Functional Literacy Programme (number of students)",
+                "Enrolment for National Functional Literacy Programme (percentage girls)",
+                "Enrolment in TVET Programmes in Senior High Technical Schools (number of schools)",
+                "Enrolment in TVET Programmes in Senior High Technical Schools (Private Schools as share (%) of total enrolment)",
+                "Enrolment in TVET Programmes in Senior High Technical Schools (number of students)",
+                "Enrolment in TVET Programmes in Senior High Technical Schools (Girls' share in enrolment)",
+                "Number of Technical and Vocational Institutes (number of institutions)",
+                "Number of Technical and Vocational Institutes (Enrolled students)",
+                ""
+              ]
+            }
           },
           {
-            "name": "REF_AREA",
+            "name": "Reference area",
             "type": "number",
             "constraints": {
               "enum": [
@@ -48,56 +62,59 @@
             }
           },
           {
-            "name": "SEX",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
-                "M",
-                "F",
+                "Male",
+                "Female",
                 ""
               ]
             }
           },
           {
-            "name": "EDUCATION_LEV",
+            "name": "Education level",
             "type": "string",
             "constraints": {
               "enum": [
-                "ISCED11_35",
-                "ISCED11_25_35_45",
+                "Upper secondary vocational education",
+                "Vocational secondary education",
                 ""
               ]
             }
           },
           {
-            "name": "CUST_BREAKDOWN",
+            "name": "Custom Breakdown",
             "type": "string",
             "constraints": {
               "enum": [
                 "GES",
-                "OTHER_PUBLIC",
+                "Other public",
                 ""
               ]
             }
           },
           {
-            "name": "COMPOSITE_BREAKDOWN",
+            "name": "Composite breakdown",
             "type": "string",
             "constraints": {
               "enum": [
-                "_L_GH_PUBLIC",
-                "_L_GH_PRIVATE",
+                "Public",
+                "Private",
                 ""
               ]
             }
           },
           {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "GeoCode",
-            "type": "number"
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number",
+                "Percent",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

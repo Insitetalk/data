@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "OBS_STATUS",
@@ -35,11 +35,17 @@
             }
           },
           {
-            "name": "SERIES",
-            "type": "string"
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Post-harvest losses for selected produce",
+                ""
+              ]
+            }
           },
           {
-            "name": "REF_AREA",
+            "name": "Reference area",
             "type": "number",
             "constraints": {
               "enum": [
@@ -48,28 +54,30 @@
             }
           },
           {
-            "name": "PRODUCT",
+            "name": "Type of product",
             "type": "string",
             "constraints": {
               "enum": [
-                "CPC2_1_112",
-                "CPC2_1_113",
-                "CPC2_1_114",
-                "_L_GH_Cassava",
-                "_L_GH_Yam",
-                "_L_GH_Fish_Marine",
-                "_L_GH_Fish_Artisanal",
+                "Maize",
+                "Rice",
+                "Sorghum",
+                "Cassava",
+                "Yam",
+                "Fish(Marine)",
+                "Fish(Artisanal)",
                 ""
               ]
             }
           },
           {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "GeoCode",
-            "type": "number"
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

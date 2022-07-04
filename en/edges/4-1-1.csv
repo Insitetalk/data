@@ -1,4 +1,6 @@
 From,To
-COMPOSITE_BREAKDOWN,Sex
-COMPOSITE_BREAKDOWN,Degree of urbanisation
-COMPOSITE_BREAKDOWN,Education level
+SDG Series,Composite breakdown
+Unit of measure,Sex
+Unit of measure,Degree of urbanisation
+Unit of measure,Education level
+Composite breakdown,Unit of measure

@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "OBS_STATUS",
@@ -35,35 +35,44 @@
             }
           },
           {
-            "name": "SERIES",
-            "type": "string"
-          },
-          {
-            "name": "REF_AREA",
+            "name": "SDG Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "06_o",
-                "07_o",
-                "02_o",
-                "05_o",
-                "03_o",
-                "08_o",
-                "09_o",
-                "10_o",
-                "04_o",
-                "01_o",
+                "Maternal mortality ratio [3.1.1]",
+                "Institutional maternal mortality ratio",
                 ""
               ]
             }
           },
           {
-            "name": "UNIT_MEASURE",
-            "type": "string"
+            "name": "Reference area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ashanti",
+                "Brong Ahafo",
+                "Central",
+                "Eastern",
+                "Greater Accra",
+                "Northern",
+                "Upper East",
+                "Upper West",
+                "Volta",
+                "Western",
+                ""
+              ]
+            }
           },
           {
-            "name": "GeoCode",
-            "type": "string"
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Per 100,000 live births",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

@@ -1,5 +1,5 @@
-Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
-2015,A,0,VC_PRS_UNSNT,,PT,,18.2
-2016,A,0,VC_PRS_UNSNT,,PT,,17.8
-2017,A,0,VC_PRS_UNSNT,,PT,,13.6
-2018,A,0,VC_PRS_UNSNT,,PT,,13.1
+Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
+2015,A,0,Unsentenced detainees as a proportion of overall prison population [16.3.2],,Percent,18.2
+2016,A,0,Unsentenced detainees as a proportion of overall prison population [16.3.2],,Percent,17.8
+2017,A,0,Unsentenced detainees as a proportion of overall prison population [16.3.2],,Percent,13.6
+2018,A,0,Unsentenced detainees as a proportion of overall prison population [16.3.2],,Percent,13.1

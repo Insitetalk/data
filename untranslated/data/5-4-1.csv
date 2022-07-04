@@ -1,6 +1,6 @@
-Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,SEX,URBANISATION,UNIT_MEASURE,GeoCode,Value
-2013,A,0,SL_DOM_TSPD,,,,_L_GH_MINUTE,,42.8
-2013,A,0,SL_DOM_TSPD,,M,,_L_GH_MINUTE,,33.2
-2013,A,0,SL_DOM_TSPD,,F,,_L_GH_MINUTE,,51.6
-2013,A,0,SL_DOM_TSPD,,,U,_L_GH_MINUTE,,47.1
-2013,A,0,SL_DOM_TSPD,,,R,_L_GH_MINUTE,,40.0
+Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Sex,Degree of urbanisation,Unit of measure,Value
+2013,A,0,Proportion of time spent on unpaid domestic chores and care work [5.4.1],,,,Minute,42.8
+2013,A,0,Proportion of time spent on unpaid domestic chores and care work [5.4.1],,Male,,Minute,33.2
+2013,A,0,Proportion of time spent on unpaid domestic chores and care work [5.4.1],,Female,,Minute,51.6
+2013,A,0,Proportion of time spent on unpaid domestic chores and care work [5.4.1],,,Urban,Minute,47.1
+2013,A,0,Proportion of time spent on unpaid domestic chores and care work [5.4.1],,,Rural,Minute,40.0

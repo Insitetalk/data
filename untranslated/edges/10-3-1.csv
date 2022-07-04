@@ -1,4 +1,6 @@
 From,To
 OBS_STATUS,UNIT_MULT
-UNIT_MULT,COMPOSITE_BREAKDOWN
-COMPOSITE_BREAKDOWN,REF_AREA
+UNIT_MULT,SDG Series
+SDG Series,Composite breakdown
+Unit of measure,Reference area
+Composite breakdown,Unit of measure

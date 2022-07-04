@@ -1,10 +1,10 @@
-Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,SEX,UNIT_MEASURE,GeoCode,Value
-2014,A,0,SL_EMP_EARN,,,_L_GH_CEDI,,495.47
-2014,A,0,SL_EMP_EARN,,M,_L_GH_CEDI,,592.64
-2014,A,0,SL_EMP_EARN,,F,_L_GH_CEDI,,395.48
-2015,A,0,SL_EMP_EARN,,,_L_GH_CEDI,,898.65
-2015,A,0,SL_EMP_EARN,,M,_L_GH_CEDI,,1011.13
-2015,A,0,SL_EMP_EARN,,F,_L_GH_CEDI,,715.22
-2017,A,0,SL_EMP_EARN,,,_L_GH_CEDI,,972.0
-2017,A,0,SL_EMP_EARN,,M,_L_GH_CEDI,,1106.0
-2017,A,0,SL_EMP_EARN,,F,_L_GH_CEDI,,679.0
+Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Sex,Unit of measure,Value
+2014,A,0,Average hourly earnings [8.5.1],,,Ghana Cedi,495.47
+2014,A,0,Average hourly earnings [8.5.1],,Male,Ghana Cedi,592.64
+2014,A,0,Average hourly earnings [8.5.1],,Female,Ghana Cedi,395.48
+2015,A,0,Average hourly earnings [8.5.1],,,Ghana Cedi,898.65
+2015,A,0,Average hourly earnings [8.5.1],,Male,Ghana Cedi,1011.13
+2015,A,0,Average hourly earnings [8.5.1],,Female,Ghana Cedi,715.22
+2017,A,0,Average hourly earnings [8.5.1],,,Ghana Cedi,972.0
+2017,A,0,Average hourly earnings [8.5.1],,Male,Ghana Cedi,1106.0
+2017,A,0,Average hourly earnings [8.5.1],,Female,Ghana Cedi,679.0

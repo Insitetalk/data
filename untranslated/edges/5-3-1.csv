@@ -1,4 +1,6 @@
 From,To
 OBS_STATUS,UNIT_MULT
-UNIT_MULT,SEX
-SEX,AGE
+UNIT_MULT,SDG Series
+SDG Series,Sex
+Sex,Age
+Age,Unit of measure

@@ -11,23 +11,62 @@
       "schema": {
         "fields": [
           {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
             "name": "OBS_STATUS",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Normal value"
+                "Normal value",
+                ""
               ]
             },
             "title": "Observation status"
           },
           {
-            "name": "REF_AREA",
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Units",
+                ""
+              ]
+            },
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Coverage of protected areas in relation to marine areas-Index",
+                "Coverage of protected areas in relation to marine areas-Food provision",
+                "Coverage of protected areas in relation to marine areas-Wild caught Fisheries(sub-goal)",
+                "Coverage of protected areas in relation to marine areas-Artisanal fishing opportunities",
+                "Coverage of protected areas in relation to marine areas-Natural products",
+                "Coverage of protected areas in relation to marine areas-Carbon storage",
+                "Coverage of protected areas in relation to marine areas-Coastal protection",
+                "Coverage of protected areas in relation to marine areas-Livelihoods & economies (sub-goals)",
+                "Coverage of protected areas in relation to marine areas-Livelihoods (sub-goals)",
+                "Coverage of protected areas in relation to marine areas-Economies (sub-goals)",
+                "Coverage of protected areas in relation to marine areas-Tourism & recreation",
+                "Coverage of protected areas in relation to marine areas-Sense of place",
+                "Coverage of protected areas in relation to marine areas-Iconic species (sub-goal)",
+                "Coverage of protected areas in relation to marine areas-Lasting special places (sub-goal)",
+                "Coverage of protected areas in relation to marine areas-Clean water",
+                "Coverage of protected areas in relation to marine areas-Biodiversity",
+                "Coverage of protected areas in relation to marine areas-Habitat (sub-goal)",
+                "Coverage of protected areas in relation to marine areas-Species condition (sub-goal)",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Reference area",
             "type": "number",
             "constraints": {
               "enum": [
@@ -37,35 +76,20 @@
             "title": "Reference area"
           },
           {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Unit of measure"
-          },
-          {
-            "name": "UNIT_MULT",
+            "name": "Unit of measure",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Units"
+                "Index",
+                ""
               ]
             },
-            "title": "Unit multiplier"
+            "title": "Unit of measure"
           },
           {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }

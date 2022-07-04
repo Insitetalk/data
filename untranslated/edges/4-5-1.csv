@@ -1,4 +1,6 @@
 From,To
 OBS_STATUS,UNIT_MULT
-UNIT_MULT,EDUCATION_LEV
-EDUCATION_LEV,REF_AREA
+UNIT_MULT,SDG Series
+SDG Series,Education level
+Unit of measure,Reference area
+Education level,Unit of measure

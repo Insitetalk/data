@@ -1,2 +1,4 @@
 From,To
-Degree of urbanisation,COMPOSITE_BREAKDOWN
+SDG Series,Degree of urbanisation
+Degree of urbanisation,Composite breakdown
+Composite breakdown,Unit of measure

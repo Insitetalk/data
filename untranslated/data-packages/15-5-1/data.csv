@@ -1,5 +1,5 @@
-Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
-2016,A,0,ER_RSK_LST,,IX,,0.9
-2017,A,0,ER_RSK_LST,,IX,,0.9
-2018,A,0,ER_RSK_LST,,IX,,0.9
-2019,A,0,ER_RSK_LST,,IX,,1.0
+Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
+2016,A,0,Red List Index [15.5.1],,Index,0.9
+2017,A,0,Red List Index [15.5.1],,Index,0.9
+2018,A,0,Red List Index [15.5.1],,Index,0.9
+2019,A,0,Red List Index [15.5.1],,Index,1.0

@@ -1,3 +1,5 @@
 From,To
-Age,Sex
-Age,Degree of urbanisation
+SDG Series,Age
+Unit of measure,Sex
+Age,Unit of measure
+Unit of measure,Degree of urbanisation

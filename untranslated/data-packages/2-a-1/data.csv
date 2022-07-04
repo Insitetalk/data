@@ -1,10 +1,10 @@
-Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
-2016,A,0,AG_PRD_ORTIND,,IX,,0.4
-2017,A,0,AG_PRD_ORTIND,,IX,,0.5
-2018,A,0,AG_PRD_ORTIND,,IX,,0.5
-2016,A,0,AG_XPD_AGSGB,,PT,,9.81
-2017,A,0,AG_XPD_AGSGB,,PT,,10.06
-2018,A,0,AG_XPD_AGSGB,,PT,,10.32
-2016,A,0,AG_PRD_AGVAS,,PT,,22.6
-2017,A,0,AG_PRD_AGVAS,,PT,,21.15
-2018,A,0,AG_PRD_AGVAS,,PT,,19.65
+Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
+2016,A,0,Agriculture orientation index for government expenditures [2.a.1],,Index,0.4
+2017,A,0,Agriculture orientation index for government expenditures [2.a.1],,Index,0.5
+2018,A,0,Agriculture orientation index for government expenditures [2.a.1],,Index,0.5
+2016,A,0,Agriculture share of Government Expenditure [2.a.1],,Percent,9.81
+2017,A,0,Agriculture share of Government Expenditure [2.a.1],,Percent,10.06
+2018,A,0,Agriculture share of Government Expenditure [2.a.1],,Percent,10.32
+2016,A,0,Agriculture value added share of GDP [2.a.1],,Percent,22.6
+2017,A,0,Agriculture value added share of GDP [2.a.1],,Percent,21.15
+2018,A,0,Agriculture value added share of GDP [2.a.1],,Percent,19.65

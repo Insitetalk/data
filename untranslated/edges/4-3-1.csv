@@ -1,6 +1,8 @@
 From,To
 OBS_STATUS,UNIT_MULT
-UNIT_MULT,SEX
-UNIT_MULT,EDUCATION_LEV
-EDUCATION_LEV,COMPOSITE_BREAKDOWN
-COMPOSITE_BREAKDOWN,CUST_BREAKDOWN
+UNIT_MULT,SDG Series
+SDG Series,Unit of measure
+Unit of measure,Sex
+Education level,Composite breakdown
+Unit of measure,Education level
+Composite breakdown,Custom Breakdown

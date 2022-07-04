@@ -1,5 +1,5 @@
-Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
-2016,A,0,EG_FEC_RNEW,,PT,,39.5
-2017,A,0,EG_FEC_RNEW,,PT,,47.3
-2018,A,0,EG_FEC_RNEW,,PT,,44.3
-2019,A,0,EG_FEC_RNEW,,PT,,43.4
+Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
+2016,A,0,Renewable energy share in the total final energy consumption [7.2.1],,Percent,39.5
+2017,A,0,Renewable energy share in the total final energy consumption [7.2.1],,Percent,47.3
+2018,A,0,Renewable energy share in the total final energy consumption [7.2.1],,Percent,44.3
+2019,A,0,Renewable energy share in the total final energy consumption [7.2.1],,Percent,43.4

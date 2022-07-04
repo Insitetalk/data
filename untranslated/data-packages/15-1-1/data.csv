@@ -1,8 +1,8 @@
-Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
-2012,A,0,AG_LND_FRST,,PT,,38.7
-2013,A,0,AG_LND_FRST,,PT,,38.7
-2014,A,0,AG_LND_FRST,,PT,,38.8
-2015,A,0,AG_LND_FRST,,PT,,39.0
-2016,A,0,AG_LND_FRST,,PT,,39.0
-2017,A,0,AG_LND_FRST,,PT,,41.0
-2018,A,0,AG_LND_FRST,,PT,,42.9
+Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
+2012,A,0,Forest area as a proportion of total land area [15.1.1],,Percent,38.7
+2013,A,0,Forest area as a proportion of total land area [15.1.1],,Percent,38.7
+2014,A,0,Forest area as a proportion of total land area [15.1.1],,Percent,38.8
+2015,A,0,Forest area as a proportion of total land area [15.1.1],,Percent,39.0
+2016,A,0,Forest area as a proportion of total land area [15.1.1],,Percent,39.0
+2017,A,0,Forest area as a proportion of total land area [15.1.1],,Percent,41.0
+2018,A,0,Forest area as a proportion of total land area [15.1.1],,Percent,42.9

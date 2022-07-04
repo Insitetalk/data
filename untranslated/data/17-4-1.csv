@@ -1,5 +1,5 @@
-Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
-2016,A,0,_L_GH_170401,,PT,,47.3
-2017,A,0,_L_GH_170401,,PT,,46.3
-2018,A,0,_L_GH_170401,,PT,,45.4
-2019,A,0,_L_GH_170401,,PT,,59.2
+Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
+2016,A,0,Debt Service as a percentage of total domestic revenue,,Percent,47.3
+2017,A,0,Debt Service as a percentage of total domestic revenue,,Percent,46.3
+2018,A,0,Debt Service as a percentage of total domestic revenue,,Percent,45.4
+2019,A,0,Debt Service as a percentage of total domestic revenue,,Percent,59.2

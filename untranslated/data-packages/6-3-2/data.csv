@@ -1,4 +1,4 @@
-Year,OBS_STATUS,UNIT_MULT,SERIES,REF_AREA,UNIT_MEASURE,GeoCode,Value
-2015,A,0,EN_H2O_WBAMBQ,,PT,,61.0
-2017,A,0,EN_H2O_WBAMBQ,,PT,,52.0
-2018,A,0,EN_H2O_WBAMBQ,,PT,,55.9
+Year,OBS_STATUS,UNIT_MULT,SDG Series,Reference area,Unit of measure,Value
+2015,A,0,Proportion of bodies of water with good ambient water quality [6.3.2],,Percent,61.0
+2017,A,0,Proportion of bodies of water with good ambient water quality [6.3.2],,Percent,52.0
+2018,A,0,Proportion of bodies of water with good ambient water quality [6.3.2],,Percent,55.9
