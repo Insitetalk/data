@@ -1,1 +1,6 @@
-Year,Value
+Year,Observation status,Unit multiplier,SERIES,Reference area,UNIT_MEASURE,GeoCode,Value
+2017,Normal value,Units,Grid electricity supply by generation type,,Percent,,0.79
+2018,Normal value,Units,Grid electricity supply by generation type,,Percent,,1.45
+2019,Normal value,Units,Grid electricity supply by generation type,,Percent,,1.42
+2020,Normal value,Units,Grid electricity supply by generation type,,Percent,,1.91
+2021,Normal value,Units,Grid electricity supply by generation type,,Percent,,3.64
