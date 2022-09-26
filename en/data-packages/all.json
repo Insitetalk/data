@@ -6442,6 +6442,17 @@
             "title": "SDG Series"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Economic Growth"
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "UNIT_MEASURE",
             "type": "string",
             "title": "Unit of measure"
@@ -6456,6 +6467,17 @@
               ]
             },
             "title": "Unit multiplier"
+          },
+          {
+            "name": "Unit Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent"
+              ]
+            },
+            "title": "Unit Measure"
           },
           {
             "name": "Value",
@@ -8693,52 +8715,6 @@
         ]
       },
       "title": "Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)"
-    },
-    {
-      "path": "covid/data.csv",
-      "name": "covid",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Economic Growth"
-              ]
-            },
-            "title": "Series"
-          },
-          {
-            "name": "Unit Measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Percent"
-              ]
-            },
-            "title": "Unit Measure"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "covid"
     },
     {
       "path": "2-5-2/data.csv",
