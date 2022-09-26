@@ -9,5 +9,6 @@ OBS_STATUS,Observation status,98,1
 PRODUCT,Type of product,2,16
 REF_AREA,Reference area,13,29
 SEX,Sex,21,2
+Unit Measure,Unit Measure,1,1
 UNIT_MULT,Unit multiplier,98,1
 URBANISATION,Degree of urbanisation,24,2
