@@ -2,7 +2,7 @@
 computation_units: ''
 copyright: ''
 data_footnote: ''
-data_non_statistical: false
+data_non_statistical: true
 data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
@@ -49,7 +49,8 @@ source_active_6: false
 page_content: >- 
   Census taking in Ghana
   
-  Population Censuses have been conducted in Ghana at approximately ten-year intervals since 1891. 
-  Ghana has conducted six population Censuses after independence – 2021 was the last. 
-  The last three Censuses (2000, 2010 and 2021) combined Population and Housing in one operation. 
+  
+  Population Censuses have been conducted in Ghana at approximately ten-year intervals since 1891. \n 
+  Ghana has conducted six population Censuses after independence – 2021 was the last. \n 
+  The last three Censuses (2000, 2010 and 2021) combined Population and Housing in one operation. \n  
   The last Census conducted in 2021 recorded a total population of 30.8 million.
