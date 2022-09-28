@@ -40,7 +40,7 @@ _L_GH_POLICE,Police,1,1
 _L_GH_PRIVATE,Private,19,3
 _L_GH_PRORIGHTS,Property Rights,1,1
 _L_GH_PROTECTION,PROTECTION,1,1
-_L_GH_PUBLIC,Public,16,3
+_L_GH_PUBLIC,Public,22,3
 _L_GH_PUBLIC_TOILET,Public Toilet,2,1
 _L_GH_RAPE_SED,Rape/Seduction,1,1
 _L_GH_SACHET_WATER,Satchet Water,1,1
@@ -66,15 +66,16 @@ _L_GH_WELL,Well,1,1
 _L_GH_WORIGHTS,Women Rights,1,1
 _NATURAL_SOURCE,Natural Source,1,1
 CI,COTE D'IVOIRE,1,1
-GES,Ghana Education Service,2,1
 LR,LIBERIA,1,1
 MOT_AIR,Mode of Transport: Air,3,1
 MOT_IWW,Mode of transport: Inland waterway transport,2,1
 MOT_RAI,Mode of Transport: Rail,2,1
 MOT_SEA,Mode of Transport: Maritime,2,1
-OTHER_PUBLIC,Other Public Institutions,2,1
 SKILL_LTRCY,Skill: Functional literacy,9,1
 SKILL_MATH,Skill: Mathematics,9,1
 SKILL_NMRCY,Skill: Functional numeracy,18,1
 SKILL_READ,Skill: Reading,9,1
 TG,TOGO,1,1
+TRT_GEOTHERMAL,Type of renewable technology: Geothermal energy,2,2
+TRT_HYDROPOWER,Type of renewable technology: Hydropower,2,2
+TRT_MULTIPLE,Type of renewable technology: Multiple renewables,2,2

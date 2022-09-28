@@ -12,34 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COMPOSITE_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_L_GH_ECOWAS",
-                "_L_GH_OTHER_AFRICA",
-                "_L_GH_EUROPE",
-                "_L_GH_MIDDLEEAST",
-                "_L_GH_ASIA",
-                "_L_GH_AMERICA",
-                "_L_GH_OCEANIA",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",
