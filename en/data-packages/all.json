@@ -3131,8 +3131,8 @@
       "title": "Proportion of the population who are refugees, by country of origin"
     },
     {
-      "path": "covid-1/data.csv",
-      "name": "covid-1",
+      "path": "12-3-1/data.csv",
+      "name": "12-3-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3141,26 +3141,21 @@
       "schema": {
         "fields": [
           {
-            "name": "Series",
+            "name": "PRODUCT",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Economic Growth"
+                "Maize",
+                "Rice",
+                "Sorghum",
+                "Cassava",
+                "Fish(Artisanal)",
+                "Fish(Marine)",
+                "Yam"
               ]
             },
-            "title": "Series"
-          },
-          {
-            "name": "Unit Measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Percent"
-              ]
-            },
-            "title": "Unit Measure"
+            "title": "Type of product"
           },
           {
             "name": "Value",
@@ -3174,7 +3169,49 @@
           }
         ]
       },
-      "title": "Covid 1"
+      "title": "(a) Food loss index and (b) food waste index"
+    },
+    {
+      "path": "12-a-1/data.csv",
+      "name": "12-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Type of renewable technology: Geothermal energy",
+                "Type of renewable technology: Hydropower",
+                "Type of renewable technology: Multiple renewables"
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Installed renewable energy-generating capacity in developing countries (in watts per capita)"
     },
     {
       "path": "7-1-1/data.csv",
@@ -3693,89 +3730,6 @@
         ]
       },
       "title": "Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider"
-    },
-    {
-      "path": "12-3-1/data.csv",
-      "name": "12-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "PRODUCT",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Maize",
-                "Rice",
-                "Sorghum",
-                "Cassava",
-                "Fish(Artisanal)",
-                "Fish(Marine)",
-                "Yam"
-              ]
-            },
-            "title": "Type of product"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "(a) Food loss index and (b) food waste index"
-    },
-    {
-      "path": "12-a-1/data.csv",
-      "name": "12-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "COMPOSITE_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Type of renewable technology: Geothermal energy",
-                "Type of renewable technology: Hydropower",
-                "Type of renewable technology: Multiple renewables"
-              ]
-            },
-            "title": "Composite breakdown"
-          },
-          {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Installed renewable energy-generating capacity in developing countries (in watts per capita)"
     },
     {
       "path": "13-1-1/data.csv",
@@ -5308,6 +5262,30 @@
         ]
       },
       "title": "Proportion of transboundary basin area with an operational arrangement for water cooperation"
+    },
+    {
+      "path": "covid-1/data.csv",
+      "name": "covid-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Covid 1"
     },
     {
       "path": "3-b-3/data.csv",
