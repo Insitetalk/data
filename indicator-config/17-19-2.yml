@@ -30,9 +30,56 @@ reporting_status: complete
 sort: ''
 standalone: true
 tags: []
+    ######### Global Metadata #########
+      - name: "indicator_name"
+        field:
+            element: text
+            label: "Indicator name"
+            scope: global
+      - name: "indicator"
+        field:
+            element: hidden
+            label: "Indicator number"
+            scope: global
+      - name: "target"
+        field:
+            element: text
+            label: "Target name"
+            scope: global
+      - name: "target_id"
+        field:
+            element: text
+            label: "Target number"
+            scope: global
+      - name: "indicator_definition"
+        field:
+            element: textarea
+            label: "Global indicator description"
+            scope: global
+      - name: "un_designated_tier"
+        field: 
+            element: text
+            label: "UN designated tier"
+            scope: global
+      - name: "un_custodian_agency"
+        field: 
+            element: text
+            label: "UN custodian agency"
+            scope: global
+      - name: "goal_meta_link"
+        field:
+            element: text
+            label: "Link to UN metadata"
+            scope: global
+      - name: "goal_meta_link_text"
+        field:
+            element: text
+            label: "Link to UN metadata text"
+            value: "UN metadata"
+            scope: global
 source_active_1: true
 source_organisation_1: Ghana Statistical Service
-source_periodicity_1: Annual
+source_periodicity_1: 10 years
 source_earliest_available_1: 1891
 source_geographical_coverage_1: Ghana
 source_url_1: https://www.statsghana.gov.gh/
