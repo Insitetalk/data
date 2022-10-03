@@ -1,5 +1,9 @@
-﻿composite_breakdown_label: ''
-computation_units: ''
+﻿composite_breakdown_label:
+  - series: Coverage of Drinking Water Services by Levels
+    composite_breakdown_label: Level
+  - series: Sources of drinking water
+    composite_breakdown_label: Sources
+computation_units: Percent
 copyright: ''
 data_footnote: ''
 data_non_statistical: false
