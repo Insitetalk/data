@@ -52,8 +52,8 @@ inputs:
     import_translation_keys: true
   - class: InputWordMeta
     path_pattern: meta/*-*.docm
-  - class: InputYamlMeta
-    path_pattern: indicator-config/*-*.yml
+  - class: InputYamlMdMeta
+    path_pattern: indicator-config/*-*.md
 
 # Metadata Schema
 # This inputs multiple metadata schema to control which metadata tabs
