@@ -15,6 +15,10 @@
             "type": "string"
           },
           {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
             "name": "SEX",
             "type": "string",
             "constraints": {
@@ -35,5 +39,5 @@
   ],
   "profile": "data-package",
   "name": "8-5-1",
-  "title": "Average hourly earnings of employees, by sex, age, occupation and persons with disabilities"
+  "title": "global_indicators.8-5-1-title"
 }

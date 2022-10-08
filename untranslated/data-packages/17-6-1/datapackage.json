@@ -15,6 +15,10 @@
             "type": "string"
           },
           {
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
             "name": "URBANISATION",
             "type": "string",
             "constraints": {
@@ -26,6 +30,10 @@
             }
           },
           {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
             "name": "Value",
             "type": "number"
           }
@@ -35,5 +43,5 @@
   ],
   "profile": "data-package",
   "name": "17-6-1",
-  "title": "Households access to fixed internet service"
+  "title": "global_indicators.17-6-1-title"
 }
