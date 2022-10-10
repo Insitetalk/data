@@ -21,7 +21,12 @@ graph_title: global_indicators.17-19-2-title
 graph_titles: []
 graph_type: line
 indicator_name: global_indicators.17-19-2-title
+target_name: global_targets.17-19-title
 indicator_number: '17.19.2'
+un_designated_tier: Tier I
+un_custodian_agency: United Nations Statistics Division (UNSD), Department of Economic and Social Affairs, United Nations
+goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.19
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 469 KB)
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -47,10 +52,10 @@ source_active_4: false
 source_active_5: false
 source_active_6: false
 page_content: >- 
-  ## Census taking in Ghana
+  ** Census taking in Ghana **
 
   
-  **Population Censuses:** have been conducted in Ghana at approximately ten-year intervals since 1891.
+  Population Censuses have been conducted in Ghana at approximately ten-year intervals since 1891.
 
  
   Ghana has conducted six population Censuses after independence – 2021 was the last. 
