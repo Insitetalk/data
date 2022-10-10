@@ -49,7 +49,7 @@ prose:
             scope: global
       - name: "target_id"
         field:
-            element: text
+            element: hidden
             label: "Target number"
             translation_key: metadata_fields.target_id
             scope: global
