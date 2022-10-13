@@ -93,7 +93,7 @@ prose:
             scope: national
       - name: SDG_GOAL
         field:
-            element: text
+            element: hidden
             label: Goal
             translation_key: metadata_fields.SDG_GOAL
             scope: national
