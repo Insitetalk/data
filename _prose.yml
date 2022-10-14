@@ -91,18 +91,18 @@ prose:
             label: Indicator information
             translation_key: metadata_fields.SDG_INDICATOR_INFO
             scope: national
-      ######### - name: SDG_GOAL ######### 
-     #########     field: ######### 
-    #########          element: hidden ######### 
-     #########         label: Goal ######### 
-       #########       translation_key: metadata_fields.SDG_GOAL ######### 
-        #########      scope: national  ######### 
-     #########   - name: SDG_TARGET ######### 
-  #########        field: ######### 
-     #########         element: hidden ######### 
-      #########        label: Target ######### 
-       #########       translation_key: metadata_fields.SDG_TARGET ######### 
-   #########           scope: national ######### 
+      - name: SDG_GOAL
+        field:
+            element: text
+            label: Goal
+            translation_key: metadata_fields.SDG_GOAL
+            scope: national
+      - name: SDG_TARGET
+        field:
+            element: hidden
+            label: Target1
+            translation_key: metadata_fields.SDG_TARGET
+            scope: national
       - name: SDG_INDICATOR
         field:
             element: text
@@ -187,7 +187,12 @@ prose:
             label: Definition and concepts
             translation_key: metadata_fields.STAT_CONC_DEF
             scope: national
-    
+     # - name: UNIT_MEASURE
+     #   field:
+     #       element: text
+     #       label: Unit of measure
+     #       translation_key: metadata_fields.UNIT_MEASURE
+     #       scope: national
       - name: CLASS_SYSTEM
         field:
             element: text
@@ -314,6 +319,20 @@ prose:
             label: References and Documentation
             translation_key: metadata_fields.OTHER_DOC
             scope: national
+      ######### Last updated dates #########
+      - name: "national_data_updated_date"
+        field:
+            element: hidden
+            label: "Data last updated"
+            translation_key: metadata_fields.national_data_update_url
+            scope: national
+      - name: "national_metadata_updated_date"
+        field:
+            element: hidden
+            label: "Metadata last updated"
+            translation_key: metadata_fields.national_metadata_update_url
+            scope: national
+      
       ######### Last updated dates #########
       - name: "national_data_updated_date"
         field:
