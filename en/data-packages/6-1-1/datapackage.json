@@ -11,52 +11,59 @@
       "schema": {
         "fields": [
           {
-            "name": "COMPOSITE_BREAKDOWN",
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "SDG Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Basic Service",
-                "Bottled Water",
-                "Limited Service",
-                "Pipe-borne",
-                "Satchet Water",
-                "Safely Managed",
-                "Surface Water",
-                "Tanker/Vendor",
-                "Unimproved",
-                "Well",
-                "Natural Source"
+                "Sources of drinking water",
+                "Coverage of Drinking Water Services by Levels",
+                ""
               ]
             },
-            "title": "Composite breakdown"
-          },
-          {
-            "name": "SERIES",
-            "type": "string",
             "title": "SDG Series"
           },
           {
-            "name": "URBANISATION",
+            "name": "Degree of urbanisation",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
                 "Rural",
-                "Urban"
+                "Urban",
+                ""
               ]
             },
             "title": "Degree of urbanisation"
           },
           {
+            "name": "Composite breakdown",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tanker/Vendor",
+                "Satchet Water",
+                "Bottled Water",
+                "Natural Source",
+                "Well",
+                "Pipe-borne",
+                "Safely Managed",
+                "Basic Service",
+                "Limited Service",
+                "Unimproved",
+                "Surface Water",
+                ""
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }

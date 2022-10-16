@@ -11,42 +11,42 @@
       "schema": {
         "fields": [
           {
-            "name": "COMPOSITE_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Bucket/Pan",
-                "Kumasi Ventilated Improved Pit (KVIP)",
-                "No facility (bush/beach/field)",
-                "Pit Latrine",
-                "Public Toilet",
-                "Water Closet (WC)"
-              ]
-            },
-            "title": "Composite breakdown"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
-            "name": "URBANISATION",
+            "name": "Degree of urbanisation",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
+                "Urban",
                 "Rural",
-                "Urban"
+                ""
               ]
             },
             "title": "Degree of urbanisation"
           },
           {
+            "name": "Composite breakdown",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "No facility (bush/beach/field)",
+                "Water Closet (WC)",
+                "Pit Latrine",
+                "Kumasi Ventilated Improved Pit (KVIP)",
+                "Bucket/Pan",
+                "Public Toilet",
+                ""
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }

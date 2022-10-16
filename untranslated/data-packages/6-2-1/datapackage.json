@@ -12,30 +12,30 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
-            "name": "URBANISATION",
+            "name": "Degree of urbanisation",
             "type": "string",
             "constraints": {
               "enum": [
-                "U",
-                "R",
+                "Urban",
+                "Rural",
                 ""
               ]
             }
           },
           {
-            "name": "COMPOSITE_BREAKDOWN",
+            "name": "Composite breakdown",
             "type": "string",
             "constraints": {
               "enum": [
-                "_L_GH_NO_FACILITY",
-                "_L_GH_WC",
-                "_L_GH_PIT_LATRINE",
-                "_L_GH_KVIP",
-                "_L_GH_BUCKET",
-                "_L_GH_PUBLIC_TOILET",
+                "No facility (bush/beach/field)",
+                "Water Closet (WC)",
+                "Pit Latrine",
+                "Kumasi Ventilated Improved Pit (KVIP)",
+                "Bucket/Pan",
+                "Public Toilet",
                 ""
               ]
             }

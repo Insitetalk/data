@@ -11,44 +11,47 @@
       "schema": {
         "fields": [
           {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
           },
           {
-            "name": "REF_AREA",
+            "name": "SDG Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "",
-                "Western",
-                "Central",
-                "Greater Accra",
-                "Volta",
-                "Eastern",
+                "1. Survey-based Maternal mortality ratio [3.1.1]",
+                "3. Census-based Maternal mortality ratio [3.1.1]",
+                "2. Institutional maternal mortality ratio",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Reference area",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Ashanti",
                 "Brong Ahafo",
+                "Central",
+                "Eastern",
+                "Greater Accra",
                 "Northern",
                 "Upper East",
-                "Upper West"
+                "Upper West",
+                "Volta",
+                "Western",
+                ""
               ]
             },
             "title": "Reference area"
           },
           {
-            "name": "SERIES",
-            "type": "string",
-            "title": "SDG Series"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
           }
         ]
       }
