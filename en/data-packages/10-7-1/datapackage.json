@@ -16,13 +16,13 @@
             "constraints": {
               "enum": [
                 "",
-                "America",
-                "Asia",
-                "ECOWAS countries",
-                "Europe",
-                "Middle East/Gulf Cooperation Council countries",
-                "Oceania",
-                "Other African Countries"
+                "_L_GH_AMERICA",
+                "_L_GH_ASIA",
+                "_L_GH_ECOWAS",
+                "_L_GH_EUROPE",
+                "_L_GH_MIDDLEEAST",
+                "_L_GH_OCEANIA",
+                "_L_GH_OTHER_AFRICA"
               ]
             },
             "title": "Composite breakdown"

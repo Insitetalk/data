@@ -16,8 +16,8 @@
             "constraints": {
               "enum": [
                 "",
-                "Ghana Education Service",
-                "Other Public Institutions",
+                "GES",
+                "OTHER_PUBLIC",
                 "Private",
                 "Public"
               ]
@@ -40,18 +40,6 @@
             "name": "SERIES",
             "type": "string",
             "title": "SDG Series"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Female",
-                "Male"
-              ]
-            },
-            "title": "Sex"
           },
           {
             "name": "UNIT_MEASURE",
