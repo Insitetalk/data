@@ -12,28 +12,28 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "U",
+                "R",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Through the sewerage system",
-                "Through drainage into a pit (soakaway)",
-                "Flows or thrown into drains/gutter",
-                "Thrown into the ground/street/outside",
+                "_L_GH_Sewerage",
+                "_L_GH_Soakaway",
+                "_L_GH_gutter",
+                "_L_GH_ground",
                 ""
               ]
             }

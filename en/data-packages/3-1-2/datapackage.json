@@ -11,73 +11,69 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "SDG Series",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of births attended by skilled health personnel [3.1.2]",
-                "Homes deliveries by region and locality type",
-                "Type of care received during Health facility delivery",
-                "Type of care received during Home delivery",
-                ""
-              ]
-            },
-            "title": "SDG Series"
-          },
-          {
-            "name": "Reference area",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Upper West",
-                "Upper East",
-                "Northern",
-                "Brong Ahafo",
-                "Ashanti",
-                "Eastern",
-                "Volta",
-                "Greater Accra",
-                "Central",
-                "Western",
-                ""
-              ]
-            },
-            "title": "Reference area"
-          },
-          {
-            "name": "Degree of urbanisation",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Urban",
-                "Rural",
-                ""
-              ]
-            },
-            "title": "Degree of urbanisation"
-          },
-          {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Skilled Care",
-                "Unskilled Care",
+                "",
                 "No Care",
-                ""
+                "Skilled Care",
+                "Unskilled Care"
               ]
             },
             "title": "Composite breakdown"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Western",
+                "Central",
+                "Greater Accra",
+                "Volta",
+                "Eastern",
+                "Ashanti",
+                "Brong Ahafo",
+                "Northern",
+                "Upper East",
+                "Upper West"
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Rural",
+                "Urban"
+              ]
+            },
+            "title": "Degree of urbanisation"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
           }
         ]
       }

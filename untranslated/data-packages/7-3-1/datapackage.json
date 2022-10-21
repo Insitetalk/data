@@ -12,18 +12,11 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Energy intensity measured in terms of total energy supply and GDP, PPP (constant 2017 international $)",
-                "Energy intensity measured in terms of final energy consumption and GDP, PPP (constant 2017 international $)",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "Value",

@@ -12,19 +12,11 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of children moderately or severely overweight [2.2.2]",
-                "Proportion of children moderately or severely wasted [2.2.2]",
-                "Proportion of children underweight",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "Value",

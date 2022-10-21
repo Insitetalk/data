@@ -12,18 +12,11 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Doctor to population ratio",
-                "Nurse to population ratio",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "Value",

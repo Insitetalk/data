@@ -11,55 +11,41 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "SDG Series",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Human rights complains (16.a.1)",
-                "Human rights cases, by type (16.a.1)",
-                ""
-              ]
-            },
-            "title": "SDG Series"
-          },
-          {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total Human Rights Complaints",
-                "Total Resolved",
+                "",
                 "Children Rights",
+                "Civil and Political Rights",
                 "Economic, Social and Cultural Rights",
                 "Property Rights",
-                "Women Rights",
-                "Civil and Political Rights",
-                ""
+                "Total Human Rights Complaints",
+                "Total Resolved",
+                "Women Rights"
               ]
             },
             "title": "Composite breakdown"
           },
           {
-            "name": "Unit of measure",
+            "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                "Number",
-                ""
-              ]
-            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
             "title": "Unit of measure"
           },
           {
             "name": "Value",
             "type": "number",
             "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
           }
         ]
       }

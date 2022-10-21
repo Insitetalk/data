@@ -12,18 +12,11 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Number of registered mobile money accounts",
-                "Number of active mobile money accounts",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
             "name": "Value",

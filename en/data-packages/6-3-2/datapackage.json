@@ -11,38 +11,24 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "SDG Series",
+            "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of bodies of water with good ambient water quality [6.3.2]",
-                "Water quality index",
-                ""
-              ]
-            },
             "title": "SDG Series"
           },
           {
-            "name": "Unit of measure",
+            "name": "UNIT_MEASURE",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                "Index",
-                ""
-              ]
-            },
             "title": "Unit of measure"
           },
           {
             "name": "Value",
             "type": "number",
             "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
           }
         ]
       }

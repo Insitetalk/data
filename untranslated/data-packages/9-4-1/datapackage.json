@@ -12,16 +12,16 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Agriculture",
-                "Industry",
-                "Services",
+                "_L_GH_AGRIC",
+                "_L_GH_INDUSTRY",
+                "_L_GH_SERVICES",
                 ""
               ]
             }

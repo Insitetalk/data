@@ -11,55 +11,38 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "SDG Series",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Freight volume (tonne kilometres) [9.1.2]",
-                "Passenger volume (passenger kilometres) [9.1.2]",
-                "Container port traffic (twenty-foot equivalent units - TEUs) [9.1.2]",
-                "Air transport, domestic passengers carried",
-                "Air transport, international passengers carried",
-                ""
-              ]
-            },
-            "title": "SDG Series"
-          },
-          {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
+                "",
                 "Mode of Transport: Air",
-                "Mode of Transport: Rail",
-                "Mode of Transport: Maritime",
                 "Mode of transport: Inland waterway transport",
-                ""
+                "Mode of Transport: Rail",
+                "Mode of Transport: Maritime"
               ]
             },
             "title": "Composite breakdown"
           },
           {
-            "name": "Unit of measure",
+            "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "Metric Tons",
-                "Number",
-                ""
-              ]
-            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
             "title": "Unit of measure"
           },
           {
             "name": "Value",
             "type": "number",
             "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
           }
         ]
       }

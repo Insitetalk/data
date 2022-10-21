@@ -11,25 +11,20 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Type of product",
+            "name": "PRODUCT",
             "type": "string",
             "constraints": {
               "enum": [
-                "Round sardinella",
-                "Flat sardinella",
+                "",
+                "Angola dentex",
+                "Burritto",
+                "Cassava fish",
                 "Chub mackerel",
                 "European anchovy",
-                "Burritto",
-                "Red Pandora",
-                "Cassava fish",
+                "Flat sardinella",
                 "Red Mullet",
-                "Angola dentex",
-                ""
+                "Red Pandora",
+                "Round sardinella"
               ]
             },
             "title": "Type of product"
@@ -38,6 +33,11 @@
             "name": "Value",
             "type": "number",
             "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
           }
         ]
       }

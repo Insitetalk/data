@@ -12,45 +12,28 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Freight volume (tonne kilometres) [9.1.2]",
-                "Passenger volume (passenger kilometres) [9.1.2]",
-                "Container port traffic (twenty-foot equivalent units - TEUs) [9.1.2]",
-                "Air transport, domestic passengers carried",
-                "Air transport, international passengers carried",
+                "MOT_AIR",
+                "MOT_RAI",
+                "MOT_SEA",
+                "MOT_IWW",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Mode of Transport: Air",
-                "Mode of Transport: Rail",
-                "Mode of Transport: Maritime",
-                "Mode of transport: Inland waterway transport",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Metric Tons",
-                "Number",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",

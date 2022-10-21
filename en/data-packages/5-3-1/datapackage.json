@@ -11,26 +11,19 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "SDG Series",
+            "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of women aged 20-24 years who were married or in a union before age 15 [5.3.1]",
-                "Proportion of women aged 20-24 years who were married or in a union before age 18 [5.3.1]",
-                ""
-              ]
-            },
             "title": "SDG Series"
           },
           {
             "name": "Value",
             "type": "number",
             "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
           }
         ]
       }

@@ -12,62 +12,55 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Unemployment rate, by disability [8.5.2]",
-                "Unemployment rate [8.5.2]",
+                "M",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Sex",
+            "name": "AGE",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
+                "Y15T24",
                 ""
               ]
             }
           },
           {
-            "name": "Age",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "15 to 24 years old",
+                "U",
+                "R",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "DISABILITY_STATUS",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Disability status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Persons with speech disability",
-                "Persons with sight disability",
-                "Persons with physical disability",
-                "Persons with intellectual disability",
-                "Persons with hearing disability",
-                "Persons with emotional disability",
+                "_L_GH_SPEECH",
+                "_L_GH_SIGHT",
+                "_L_GH_PHYSICAL",
+                "_L_GH_INTELLECTUAL",
+                "_L_GH_HEARING",
+                "_L_GH_EMOTIONAL",
                 ""
               ]
             }

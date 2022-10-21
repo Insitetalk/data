@@ -12,62 +12,57 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of births attended by skilled health personnel [3.1.2]",
-                "Homes deliveries by region and locality type",
-                "Type of care received during Health facility delivery",
-                "Type of care received during Home delivery",
+                "10_o",
+                "09_o",
+                "08_o",
+                "07_o",
+                "06_o",
+                "05_o",
+                "04_o",
+                "03_o",
+                "02_o",
+                "01_o",
                 ""
               ]
             }
           },
           {
-            "name": "Reference area",
+            "name": "URBANISATION",
             "type": "string",
             "constraints": {
               "enum": [
-                "Upper West",
-                "Upper East",
-                "Northern",
-                "Brong Ahafo",
-                "Ashanti",
-                "Eastern",
-                "Volta",
-                "Greater Accra",
-                "Central",
-                "Western",
+                "U",
+                "R",
                 ""
               ]
             }
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
+                "_L_GH_SKILLED_CARE",
+                "_L_GH_UNSKILLED_CARE",
+                "_L_GH_NO_CARE",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Skilled Care",
-                "Unskilled Care",
-                "No Care",
-                ""
-              ]
-            }
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

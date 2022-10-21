@@ -12,29 +12,15 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
-            "name": "SDG Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of urban population living in slums [11.1.1]",
-                "Urban population living in slums (number) [11.1.1]",
-                ""
-              ]
-            }
+            "name": "SERIES",
+            "type": "string"
           },
           {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                "Number",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",

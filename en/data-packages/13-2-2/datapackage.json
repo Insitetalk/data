@@ -11,22 +11,17 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "National Emissions with FOLU",
-                "National Emissions without FOLU",
+                "",
+                "Agriculture, Forestry, and Other Land Use",
                 "Energy",
                 "Industrial Processes and Product Use",
-                "Agriculture, Forestry, and Other Land Use",
-                "Waste",
-                ""
+                "National Emissions without FOLU",
+                "National Emissions with FOLU",
+                "Waste"
               ]
             },
             "title": "Composite breakdown"
@@ -35,6 +30,11 @@
             "name": "Value",
             "type": "number",
             "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
           }
         ]
       }

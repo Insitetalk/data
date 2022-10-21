@@ -12,26 +12,19 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Average monthly earnings [8.5.1]",
-                "Average hourly earnings [8.5.1]",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Male",
-                "Female",
+                "M",
+                "F",
                 ""
               ]
             }

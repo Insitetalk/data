@@ -12,16 +12,16 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
-            "name": "Composite breakdown",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Police",
-                "Government Officials",
-                "Judges ad Magistrates",
+                "_L_GH_POLICE",
+                "_L_GH_GOVOFF",
+                "_L_GH_JUGMAG",
                 ""
               ]
             }

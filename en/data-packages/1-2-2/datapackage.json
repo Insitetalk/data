@@ -11,80 +11,78 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "SDG Series",
+            "name": "AGE",
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of children 0-17 years who are deprived in various poverty dimension [1.2.2]",
-                "Proportion of population living in multidimensional poverty [1.2.2]",
-                ""
-              ]
-            },
-            "title": "SDG Series"
-          },
-          {
-            "name": "Reference area",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Coastal Zone",
-                "Forest Zone",
-                "Savannah Zone",
-                ""
-              ]
-            },
-            "title": "Reference area"
-          },
-          {
-            "name": "Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "under 18 years old",
-                ""
+                "",
+                "under 18 years old"
               ]
             },
             "title": "Age"
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Rural",
-                "Urban",
-                ""
-              ]
-            },
-            "title": "Degree of urbanisation"
-          },
-          {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "ICT",
-                "HOUSING",
-                "SANITATION",
-                "WATER",
-                "SOCIAL PROTECTION",
+                "",
                 "LEARNING AND DEVELOPMENT",
                 "HEALTH",
+                "HOUSING",
+                "ICT",
                 "NUTRITION",
-                ""
+                "SOCIAL PROTECTION",
+                "SANITATION",
+                "WATER"
               ]
             },
             "title": "Composite breakdown"
           },
           {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Coastal Zone",
+                "Forest Zone",
+                "Savannah Zone"
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Rural",
+                "Urban"
+              ]
+            },
+            "title": "Degree of urbanisation"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
           }
         ]
       }

@@ -12,55 +12,39 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "string"
           },
           {
-            "name": "SDG Series",
+            "name": "SERIES",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of ever-partnered women and girls subjected to physical violence by a current or former intimate partner in the previous 12 months [5.2.1]",
-                "Proportion of ever-partnered women and girls subjected to psychological violence by a current or former intimate partner in the previous 12 months [5.2.1]",
-                "Proportion of ever-partnered women and girls subjected to sexual violence by a current or former intimate partner in the previous 12 months [5.2.1]",
-                "Reported cases of domestic violence",
+                "F",
                 ""
               ]
             }
           },
           {
-            "name": "Sex",
+            "name": "COMPOSITE_BREAKDOWN",
             "type": "string",
             "constraints": {
               "enum": [
-                "Female",
+                "_L_GH_VERB_ASS",
+                "_L_GH_CURSE",
+                "_L_GH_RAPE_SED",
+                "_L_GH_DEFILE",
+                "_L_GH_SEX_HER",
                 ""
               ]
             }
           },
           {
-            "name": "Composite breakdown",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Verbal assault",
-                "Curse",
-                "Rape/Seduction",
-                "Defilement",
-                "Sexual Harassment",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit of measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                "Number",
-                ""
-              ]
-            }
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",

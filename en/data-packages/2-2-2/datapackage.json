@@ -11,27 +11,19 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "SDG Series",
+            "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of children moderately or severely overweight [2.2.2]",
-                "Proportion of children moderately or severely wasted [2.2.2]",
-                "Proportion of children underweight",
-                ""
-              ]
-            },
             "title": "SDG Series"
           },
           {
             "name": "Value",
             "type": "number",
             "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
           }
         ]
       }

@@ -11,77 +11,70 @@
       "schema": {
         "fields": [
           {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "SDG Series",
+            "name": "AGE",
             "type": "string",
             "constraints": {
               "enum": [
-                "Unemployment rate, by disability [8.5.2]",
-                "Unemployment rate [8.5.2]",
-                ""
-              ]
-            },
-            "title": "SDG Series"
-          },
-          {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Male",
-                "Female",
-                ""
-              ]
-            },
-            "title": "Sex"
-          },
-          {
-            "name": "Age",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15 to 24 years old",
-                ""
+                "",
+                "15 to 24 years old"
               ]
             },
             "title": "Age"
           },
           {
-            "name": "Degree of urbanisation",
+            "name": "DISABILITY_STATUS",
             "type": "string",
             "constraints": {
               "enum": [
-                "Urban",
-                "Rural",
-                ""
-              ]
-            },
-            "title": "Degree of urbanisation"
-          },
-          {
-            "name": "Disability status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Persons with speech disability",
-                "Persons with sight disability",
-                "Persons with physical disability",
-                "Persons with intellectual disability",
-                "Persons with hearing disability",
+                "",
                 "Persons with emotional disability",
-                ""
+                "Persons with hearing disability",
+                "Persons with intellectual disability",
+                "Persons with physical disability",
+                "Persons with sight disability",
+                "Persons with speech disability"
               ]
             },
             "title": "Disability status"
           },
           {
+            "name": "SERIES",
+            "type": "string",
+            "title": "SDG Series"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Rural",
+                "Urban"
+              ]
+            },
+            "title": "Degree of urbanisation"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
           }
         ]
       }
