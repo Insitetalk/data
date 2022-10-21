@@ -4010,30 +4010,6 @@
       "title": "Pro-poor public social spending"
     },
     {
-      "path": "covid-1/data.csv",
-      "name": "covid-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Covid 1"
-    },
-    {
       "path": "14-2-1/data.csv",
       "name": "14-2-1",
       "profile": "tabular-data-resource",
@@ -5328,6 +5304,30 @@
         ]
       },
       "title": "Energy intensity measured in terms of primary energy and GDP"
+    },
+    {
+      "path": "covid-1/data.csv",
+      "name": "covid-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Covid 1"
     },
     {
       "path": "gdp-1/data.csv",
