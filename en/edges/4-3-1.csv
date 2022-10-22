@@ -1,2 +1,4 @@
 From,To
-Education level,COMPOSITE_BREAKDOWN
+SDG Series,Education level
+Education level,Unit of measure
+Unit of measure,COMPOSITE_BREAKDOWN

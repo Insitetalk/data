@@ -39,11 +39,31 @@
           {
             "name": "SERIES",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Enrolment for National Functional Literacy Programme (number of classes)",
+                "Enrolment for National Functional Literacy Programme (number of students)",
+                "Enrolment for National Functional Literacy Programme (percentage girls)",
+                "Enrolment in TVET Programmes in Senior High Technical Schools (number of schools)",
+                "Enrolment in TVET Programmes in Senior High Technical Schools (Private Schools as share (%) of total enrolment)",
+                "Enrolment in TVET Programmes in Senior High Technical Schools (number of students)",
+                "Number of Technical and Vocational Institutes (number of institutions)",
+                "Number of Technical and Vocational Institutes (Enrolled students)"
+              ]
+            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number",
+                "Percent"
+              ]
+            },
             "title": "Unit of measure"
           },
           {

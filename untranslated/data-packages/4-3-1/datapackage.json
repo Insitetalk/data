@@ -16,7 +16,20 @@
           },
           {
             "name": "SERIES",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_GH_040301_1a",
+                "_L_GH_040301_1b",
+                "_L_GH_040301_1c",
+                "_L_GH_040301_2a",
+                "_L_GH_040301_2b",
+                "_L_GH_040301_2c",
+                "_L_GH_040301_3a",
+                "_L_GH_040301_3b",
+                ""
+              ]
+            }
           },
           {
             "name": "EDUCATION_LEV",
@@ -44,7 +57,14 @@
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "NUMBER",
+                "PT",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

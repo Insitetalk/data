@@ -16,7 +16,14 @@
           },
           {
             "name": "SERIES",
-            "type": "string"
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_GH_060101_01",
+                "_L_GH_060101_02",
+                ""
+              ]
+            }
           },
           {
             "name": "URBANISATION",
