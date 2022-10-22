@@ -40,6 +40,9 @@ src_dir: ''
 inputs:
   - class: InputSdmxMl_Multiple
     path_pattern: 'data/*.xml'
+  - class: InputCsvData
+    # This describes the data files, relative to the "src_dir" indicated above.
+    path_pattern: data/*-*.csv    
     dimension_map:
       REF_AREA|GH: ''
     drop_dimensions:
