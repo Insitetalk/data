@@ -16,7 +16,8 @@
             "constraints": {
               "enum": [
                 "",
-                "Economic Growth"
+                "Proportion of Household not able to buy at least one staple food - rice, maize, yam and casava",
+                "Proportion of Households with children under 15 years eating fewer meals than usual"
               ]
             },
             "title": "Series"
@@ -34,12 +35,12 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Year"
           }
         ]
