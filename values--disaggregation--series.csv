@@ -1,17 +1,18 @@
 Value,en,Disaggregation combinations using this value,Number of indicators
+_L_GH_010202_01,Proportion of children 0-17 years who are deprived in various poverty dimension [1.2.2],8,1
 _L_GH_010301_01,Cash transfer coverage of extreme poor households under Livelihood Empowerment Against Poverty (LEAP) programme,1,1
 _L_GH_010301_02,Proportion of basic school students under Ghana School Feeding Programme (GSFP),1,1
 _L_GH_010301_03,Total Beneficiaries of Free Senior High School Programme (FSHSP),1,1
 _L_GH_010301_04,Proportion with access to affordable healthcare under National Health Insurance Scheme (NHIS),1,1
-_L_GH_010a01_01,Total Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs (in million Ghana Cedi),6,1
-_L_GH_010a01_02,Percentage share of Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs,6,1
-_L_GH_010a01_03,Budget Allocation towards Extreme poverty (in million Ghana Cedi),6,1
-_L_GH_010a01_04,"Budget Allocation towards reducing poverty proportion of men, women and children by at least half (in million Ghana Cedi)",6,1
-_L_GH_010a01_05,Budget Allocation towards Social dimension (in million Ghana Cedi),6,1
-_L_GH_010a01_06,Budget Allocation towards Equal rights to basic services (in million Ghana Cedi),6,1
-_L_GH_010a01_07,Budget Allocation towards Building resilience of the poor and vulnerable (in million Ghana Cedi),6,1
-_L_GH_010a01_08,Budget Allocation towards Mobilisation of resources (in million Ghana Cedi),6,1
-_L_GH_010a01_09,Budget Allocation towards Pro-poor and Gender (in million Ghana Cedi),6,1
+_L_GH_010a01_01,Official development assistance grants as percentage of GNI [1.a.1],6,1
+_L_GH_010a01_02,Total Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs (in million Ghana Cedi),6,1
+_L_GH_010a01_03,Percentage share of Budget Allocation towards SDG1 (No Poverty) for MDAs/MMDAs,6,1
+_L_GH_010a01_04,Budget Allocation towards Extreme poverty (in million Ghana Cedi),6,1
+_L_GH_010a01_05,"Budget Allocation towards reducing poverty proportion of men, women and children by at least half (in million Ghana Cedi)",6,1
+_L_GH_010a01_06,Budget Allocation towards Social dimension (in million Ghana Cedi),6,1
+_L_GH_010a01_07,Budget Allocation towards Equal rights to basic services (in million Ghana Cedi),6,1
+_L_GH_010a01_08,Budget Allocation towards Building resilience of the poor and vulnerable (in million Ghana Cedi),6,1
+_L_GH_010a01_09,Budget Allocation towards Mobilisation of resources (in million Ghana Cedi),6,1
 _L_GH_020202,Proportion of children underweight,1,1
 _L_GH_030101_01,Survey-based Maternal mortality ratio [3.1.1],1,1
 _L_GH_030101_02,Census-based Maternal mortality ratio [3.1.1],1,1
@@ -30,14 +31,18 @@ _L_GH_040201_01,Proportion of children who are developmentally on track in liter
 _L_GH_040201_02,Proportion of children who are developmentally on track in physical development,3,1
 _L_GH_040201_03,Proportion of children who are developmentally on track in social-emotional development,3,1
 _L_GH_040201_04,Proportion of children who are developmentally on track in learning,3,1
-_L_GH_040301_1a,Enrolment for National Functional Literacy Programme (number of classes),1,1
-_L_GH_040301_1b,Enrolment for National Functional Literacy Programme (number of students),3,1
-_L_GH_040301_1c,Enrolment for National Functional Literacy Programme (percentage girls),1,1
-_L_GH_040301_2a,Enrolment in TVET Programmes in Senior High Technical Schools (number of schools),1,1
-_L_GH_040301_2b,Enrolment in TVET Programmes in Senior High Technical Schools (Private Schools as share (%) of total enrolment),3,1
-_L_GH_040301_2c,Enrolment in TVET Programmes in Senior High Technical Schools (number of students),1,1
-_L_GH_040301_3a,Number of Technical and Vocational Institutes (number of institutions),3,1
-_L_GH_040301_3b,Number of Technical and Vocational Institutes (Enrolled students),1,1
+_L_GH_040301_1a,Number of Technical and Vocational Institutions,1,1
+_L_GH_040301_1b,Number of Public Technical and Vocational Institutions,3,1
+_L_GH_040301_1c,Number of Private Technical and Vocational Institutions,1,1
+_L_GH_040301_2a,Enrolment in Technical and Vocational Institutions,1,1
+_L_GH_040301_2b,Enrolment in Public Technical and Vocational Institutions,3,1
+_L_GH_040301_2c,Enrolment in Private Technical and Vocational Institutions,1,1
+_L_GH_040301_3a,Number of Senior High Technical Schools with TVET Programmes,3,1
+_L_GH_040301_3b,Enrolment in TVET Programmes in Private Senior High Technical Schools as a share of total enrolment,1,1
+_L_GH_040301_3c,Enrolment in TVET Programmes in Senior High Technical Schools,3,1
+_L_GH_040301_4a,Number of Classes for National Functional Literacy Programme,1,1
+_L_GH_040301_4b,Enrolment for National Functional Literacy Programme,3,1
+_L_GH_040301_4c,Percentage of Female share in Enrolment for National Functional Literacy Programme,1,1
 _L_GH_040a01_01,Proportion of schools with access to toilet facilities,2,1
 _L_GH_040a01_02,Proportion of schools with access to urinals,2,1
 _L_GH_040c01_01,Pupil-trained teacher ratio by academic year at the basic level,2,1
@@ -48,29 +53,36 @@ _L_GH_050b01_01,Proportion of individuals who use a mobile telephone [5.b.1],5,1
 _L_GH_060101_01,Sources of drinking water,6,1
 _L_GH_060101_02,Coverage of Drinking Water Services by Levels,15,1
 _L_GH_060302_01,Water quality index,1,1
+_L_GH_070301_01,"Energy intensity measured in terms of total energy supply and GDP, PPP (constant 2017 international $)",1,1
+_L_GH_070301_02,"Energy intensity measured in terms of final energy consumption and GDP, PPP (constant 2017 international $)",1,1
+_L_GH_080501_01,Average monthly earnings [8.5.1],3,1
 _L_GH_080701_01,Percentage of children engaged in child labour,5,1
 _L_GH_080701_02,Percentage of children engaged in hazardous forms of child labour,5,1
+_L_GH_080901_01,Contribution of hotel and restaurant sub-sector to GDP,1,1
+_L_GH_080901_02,Growth rate of hotel and restaurant sub-sector,1,1
+_L_GH_081002_01,Number of registered mobile money accounts,1,1
+_L_GH_081002_02,Number of active mobile money accounts,1,1
 _L_GH_090102_01,"Air transport, domestic passengers carried",1,1
 _L_GH_090102_02,"Air transport, international passengers carried",1,1
-_L_GH_140501_01,Coverage of protected areas in relation to marine areas-Index,1,1
-_L_GH_140501_02,Coverage of protected areas in relation to marine areas-Food provision,1,1
-_L_GH_140501_03,Coverage of protected areas in relation to marine areas-Wild caught Fisheries(sub-goal),1,1
-_L_GH_140501_04,Coverage of protected areas in relation to marine areas-Mariculture (sub-goal),1,1
-_L_GH_140501_05,Coverage of protected areas in relation to marine areas-Artisanal fishing opportunities,1,1
-_L_GH_140501_06,Coverage of protected areas in relation to marine areas-Natural products,1,1
-_L_GH_140501_07,Coverage of protected areas in relation to marine areas-Carbon storage,1,1
-_L_GH_140501_08,Coverage of protected areas in relation to marine areas-Coastal protection,1,1
-_L_GH_140501_09,Coverage of protected areas in relation to marine areas-Livelihoods & economies (sub-goals),1,1
-_L_GH_140501_10,Coverage of protected areas in relation to marine areas-Livelihoods (sub-goals),1,1
-_L_GH_140501_11,Coverage of protected areas in relation to marine areas-Economies (sub-goals),1,1
-_L_GH_140501_12,Coverage of protected areas in relation to marine areas-Tourism & recreation,1,1
-_L_GH_140501_13,Coverage of protected areas in relation to marine areas-Sense of place,1,1
-_L_GH_140501_14,Coverage of protected areas in relation to marine areas-Iconic species (sub-goal),1,1
-_L_GH_140501_15,Coverage of protected areas in relation to marine areas-Lasting special places (sub-goal),1,1
-_L_GH_140501_16,Coverage of protected areas in relation to marine areas-Clean water,1,1
-_L_GH_140501_17,Coverage of protected areas in relation to marine areas-Biodiversity,1,1
-_L_GH_140501_18,Coverage of protected areas in relation to marine areas-Habitat (sub-goal),1,1
-_L_GH_140501_19,Coverage of protected areas in relation to marine areas-Species condition (sub-goal),1,1
+_L_GH_140501_01,Ocean Health Index,1,1
+_L_GH_140501_02,Food provision (OHI goal),1,1
+_L_GH_140501_03,Wild caught Fisheries(OHI sub-goal),1,1
+_L_GH_140501_04,Mariculture (OHI sub-goal),1,1
+_L_GH_140501_05,Artisanal fishing opportunities (OHI goal),1,1
+_L_GH_140501_06,Natural products (OHI goal),1,1
+_L_GH_140501_07,Carbon storage (OHI goal),1,1
+_L_GH_140501_08,Coastal protection (OHI goal),1,1
+_L_GH_140501_09,Livelihoods & economies (OHI goal),1,1
+_L_GH_140501_10,Livelihoods (OHI sub-goal),1,1
+_L_GH_140501_11,Economies (OHI sub-goal),1,1
+_L_GH_140501_12,Tourism & recreation (OHI goal),1,1
+_L_GH_140501_13,Sense of place (OHI goal),1,1
+_L_GH_140501_14,Iconic species (OHI sub-goal),1,1
+_L_GH_140501_15,Lasting special places (OHI sub-goal),1,1
+_L_GH_140501_16,Clean water (OHI goal),1,1
+_L_GH_140501_17,Biodiversity (OHI goal),1,1
+_L_GH_140501_18,Habitat (OHI sub-goal),1,1
+_L_GH_140501_19,Species condition (OHI sub-goal),1,1
 _L_GH_160103_01,Proportion of population subjected to psycological violence in the previous 12 months [16.1.3],2,1
 _L_GH_160103_02,Proportion of population subjected to social violence in the previous 12 months [16.1.3],2,1
 _L_GH_160103_03,Proportion of population subjected to economic violence in the previous 12 months [16.1.3],2,1
@@ -102,6 +114,7 @@ IT_MOB_OWN,Proportion of individuals who own a mobile telephone [5.b.1],5,1
 IT_NET_BBND,Fixed broadband subscriptions per 100 inhabitants [17.6.1],1,1
 NV_IND_MANF,Manufacturing value added as a proportion of GDP [9.2.1],1,1
 NV_IND_MANFPC,Manufacturing value added per capita [9.2.1],1,1
+SD_MDP_MUHC,Proportion of population living in multidimensional poverty [1.2.2],6,1
 SD_XPD_ESED,"Proportion of total government spending on essential services, education [1.a.2]",1,1
 SE_ACS_ELECT,Proportion of schools with access to electricity [4.a.1],2,1
 SE_ACS_H2O,Proportion of schools with access to basic drinking water [4.a.1],2,1
@@ -112,6 +125,7 @@ SG_XPD_HLTH,Proportion of total government spending on health [1.a.2],1,1
 SH_HIV_INCD,"Number of new HIV infections per 1,000 uninfected population [3.3.1]",1,1
 SH_STA_BRTC,Proportion of births attended by skilled health personnel [3.1.2],11,1
 SH_STA_WAST,Proportion of children moderately or severely wasted [2.2.2],1,1
+SL_EMP_EARN,Average hourly earnings [8.5.1],3,1
 SL_TLF_UEM,Unemployment rate [8.5.2],14,1
 SL_TLF_UEMDIS,"Unemployment rate, by disability [8.5.2]",6,1
 SN_STA_OVWGT,Proportion of children moderately or severely overweight [2.2.2],1,1

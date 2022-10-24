@@ -11,13 +11,27 @@
       "schema": {
         "fields": [
           {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Children likely to go back to school after mobility restrictions are lifted � Primary/JHS",
+                "Children likely to go back to school after mobility restrictions are lifted � Senior Secondary",
+                "Children engaged in any type of learning activity� Primary/JHS",
+                "Children engaged in any type of learning activity� Secondary"
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Year"
           }
         ]

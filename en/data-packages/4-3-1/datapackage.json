@@ -16,8 +16,8 @@
             "constraints": {
               "enum": [
                 "",
-                "GES",
-                "OTHER_PUBLIC",
+                "Ghana Education Service",
+                "Other Public Institutions",
                 "Private",
                 "Public"
               ]
@@ -42,17 +42,33 @@
             "constraints": {
               "enum": [
                 "",
-                "Enrolment for National Functional Literacy Programme (number of classes)",
-                "Enrolment for National Functional Literacy Programme (number of students)",
-                "Enrolment for National Functional Literacy Programme (percentage girls)",
-                "Enrolment in TVET Programmes in Senior High Technical Schools (number of schools)",
-                "Enrolment in TVET Programmes in Senior High Technical Schools (Private Schools as share (%) of total enrolment)",
-                "Enrolment in TVET Programmes in Senior High Technical Schools (number of students)",
-                "Number of Technical and Vocational Institutes (number of institutions)",
-                "Number of Technical and Vocational Institutes (Enrolled students)"
+                "Number of Technical and Vocational Institutions",
+                "Number of Public Technical and Vocational Institutions",
+                "Number of Private Technical and Vocational Institutions",
+                "Enrolment in Technical and Vocational Institutions",
+                "Enrolment in Public Technical and Vocational Institutions",
+                "Enrolment in Private Technical and Vocational Institutions",
+                "Number of Senior High Technical Schools with TVET Programmes",
+                "Enrolment in TVET Programmes in Private Senior High Technical Schools as a share of total enrolment",
+                "Enrolment in TVET Programmes in Senior High Technical Schools",
+                "Number of Classes for National Functional Literacy Programme",
+                "Enrolment for National Functional Literacy Programme",
+                "Percentage of Female share in Enrolment for National Functional Literacy Programme"
               ]
             },
             "title": "SDG Series"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Sex"
           },
           {
             "name": "UNIT_MEASURE",

@@ -11,6 +11,35 @@
       "schema": {
         "fields": [
           {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "under 18 years old"
+              ]
+            },
+            "title": "Age"
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "LEARNING AND DEVELOPMENT",
+                "HEALTH",
+                "HOUSING",
+                "ICT",
+                "NUTRITION",
+                "SOCIAL PROTECTION",
+                "SANITATION",
+                "WATER"
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
             "name": "GeoCode",
             "type": "string",
             "title": "GeoCode"
@@ -27,6 +56,18 @@
               ]
             },
             "title": "Reference area"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of population living in multidimensional poverty [1.2.2]",
+                "Proportion of children 0-17 years who are deprived in various poverty dimension [1.2.2]"
+              ]
+            },
+            "title": "SDG Series"
           },
           {
             "name": "URBANISATION",

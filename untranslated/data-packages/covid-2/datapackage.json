@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "string"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_GH_covid2_01",
+                "_L_GH_covid2_02",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
