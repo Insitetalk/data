@@ -5121,28 +5121,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of Household not able to buy at least one staple food - rice, maize, yam and casava",
-                "Proportion of Households with children under 15 years eating fewer meals than usual",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit Measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",
@@ -5296,28 +5275,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of households that reported reduced income",
-                "Proportion of households that reported reduced income from their non-farm businesses",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit Measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",
@@ -7077,29 +7035,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Proportion of households that could not buy medicine",
-                "Proportion of households that needed healthcare and were able to access it",
-                "Proportion of children missing vaccinations",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit Measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",
