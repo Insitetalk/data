@@ -13,25 +13,11 @@
           {
             "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Proportion of bodies of water with good ambient water quality [6.3.2]",
-                "Water quality index"
-              ]
-            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Index",
-                "Percent"
-              ]
-            },
             "title": "Unit of measure"
           },
           {

@@ -27,28 +27,11 @@
           {
             "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Freight volume (tonne kilometres) [9.1.2]",
-                "Passenger volume (passenger kilometres) [9.1.2]",
-                "Container port traffic (twenty-foot equivalent units - TEUs) [9.1.2]",
-                "Air transport, domestic passengers carried",
-                "Air transport, international passengers carried"
-              ]
-            },
             "title": "SDG Series"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Number",
-                "Metric Tons"
-              ]
-            },
             "title": "Unit of measure"
           },
           {

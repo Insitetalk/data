@@ -15,13 +15,23 @@
             "type": "string"
           },
           {
-            "name": "SERIES",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "_L_GH_covid3_01",
-                "_L_GH_covid3_02",
-                "_L_GH_covid3_03",
+                "Proportion of households that could not buy medicine",
+                "Proportion of households that needed healthcare and were able to access it",
+                "Proportion of children missing vaccinations",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
                 ""
               ]
             }

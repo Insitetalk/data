@@ -16,16 +16,7 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_L_GH_040101_01",
-                "_L_GH_040101_02",
-                "_L_GH_040101_03",
-                "_L_GH_040101_04",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "SEX",
@@ -56,7 +47,7 @@
               "enum": [
                 "_L_GH_Primary_4",
                 "_L_GH_Primary_6",
-                "ISCED11_2",
+                "_L_GH_JHS",
                 ""
               ]
             }

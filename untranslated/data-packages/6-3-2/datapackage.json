@@ -16,25 +16,11 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "EN_H2O_WBAMBQ",
-                "_L_GH_060302_01",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "PT",
-                "IX",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "Value",

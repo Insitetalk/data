@@ -11,18 +11,29 @@
       "schema": {
         "fields": [
           {
-            "name": "SERIES",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Children likely to go back to school after mobility restrictions are lifted � Primary/JHS",
-                "Children likely to go back to school after mobility restrictions are lifted � Senior Secondary",
-                "Children engaged in any type of learning activity� Primary/JHS",
-                "Children engaged in any type of learning activity� Secondary"
+                "Children engaged in any type of learning activity - Primary/JHS",
+                "Children engaged in any type of learning activity - Secondary",
+                "Children likely to go back to school after mobility restrictions are lifted - Primary/JHS",
+                "Children likely to go back to school after mobility restrictions are lifted - Senior Secondary"
               ]
             },
-            "title": "SDG Series"
+            "title": "Series"
+          },
+          {
+            "name": "Unit Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent"
+              ]
+            },
+            "title": "Unit Measure"
           },
           {
             "name": "Value",

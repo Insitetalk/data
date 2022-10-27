@@ -15,12 +15,22 @@
             "type": "string"
           },
           {
-            "name": "SERIES",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "_L_GH_covid1_01",
-                "_L_GH_covid1_02",
+                "Proportion of households that reported reduced income",
+                "Proportion of households that reported reduced income from their non-farm businesses",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit Measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
                 ""
               ]
             }

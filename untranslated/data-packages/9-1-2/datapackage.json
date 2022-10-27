@@ -16,17 +16,7 @@
           },
           {
             "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "IS_RDP_FRGVOL",
-                "IS_RDP_PFVOL",
-                "IS_RDP_PORFVOL",
-                "_L_GH_090102_01",
-                "_L_GH_090102_02",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "COMPOSITE_BREAKDOWN",
@@ -43,14 +33,7 @@
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "T",
-                "NUMBER",
-                ""
-              ]
-            }
+            "type": "string"
           },
           {
             "name": "Value",
