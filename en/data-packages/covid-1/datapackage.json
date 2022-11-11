@@ -11,27 +11,14 @@
       "schema": {
         "fields": [
           {
-            "name": "Series",
+            "name": "SERIES",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Proportion of households that reported reduced income",
-                "Proportion of households that reported reduced income from their non-farm businesses"
-              ]
-            },
-            "title": "Series"
+            "title": "SDG Series"
           },
           {
-            "name": "Unit Measure",
+            "name": "UNIT_MEASURE",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Percent"
-              ]
-            },
-            "title": "Unit Measure"
+            "title": "Unit of measure"
           },
           {
             "name": "Value",
